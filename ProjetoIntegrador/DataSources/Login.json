@@ -1,0 +1,101 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr65a_logins",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr65a_login",
+    "MaxGetRowsCount": 500,
+    "Name": "Login",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "cr65a_confirmaremail": "Confirmar E-mail",
+      "cr65a_confirmarsenha": "Confirmar Senha",
+      "cr65a_email": "E-mail",
+      "cr65a_login_AsyncOperations": "Trabalhos do Sistema",
+      "cr65a_login_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "cr65a_login_DuplicateBaseRecord": "Registros Duplicados (cr65a_login_DuplicateBaseRecord)",
+      "cr65a_login_DuplicateMatchingRecord": "Registros Duplicados (cr65a_login_DuplicateMatchingRecord)",
+      "cr65a_login_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "cr65a_login_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "cr65a_login_ProcessSession": "Sessões de Processo",
+      "cr65a_login_SyncErrors": "Erros de Sincronização",
+      "cr65a_loginid": "Login",
+      "cr65a_name": "Name",
+      "cr65a_senha": "Senha",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Login",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Login (Modos de exibição)",
+    "Name": "_cr65a_login_views",
+    "RelatedEntityName": "Login",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "3c34b019-fea9-488b-96c9-a63e08d1933d": "Exibição Associada de Login",
+      "53d56379-2b1c-4dbc-b09f-b2d671cfe33f": "Login Inativos(as)",
+      "64d0478c-560d-404f-aa9d-6afe55d2758a": "Login Ativos(as)",
+      "6b9f4bc3-8b6e-4a3b-92b0-60b53c25c00d": "Exibição de Consulta de Login",
+      "82331146-d810-48f7-8134-aca8aaf631ec": "Exibição de Localização Avançada de Login"
+    }
+  },
+  {
+    "DisplayName": "Status (Login)",
+    "Name": "cr65a_login_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Login"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Login",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Login)",
+    "Name": "cr65a_login_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Login"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Login",
+    "Type": "OptionSetInfo"
+  }
+]

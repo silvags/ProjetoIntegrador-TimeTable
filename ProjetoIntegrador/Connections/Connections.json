@@ -1,0 +1,64 @@
+{
+  "011faafa-c34d-46b3-87be-7ccdd485d9cb": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/releases/ase-v3/1.0.1622.3200/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://bp84.sharepoint.com/sites/Calendrio": {
+        "dataSources": {
+          "Calendário TimeTable": {
+            "tableName": "6747d1f9-f417-4d91-a9aa-4e01b4ae1989"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Calendário TimeTable"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "011faafa-c34d-46b3-87be-7ccdd485d9cb"
+  },
+  "50471254-8922-4980-9b2b-f48fb005d5a9": {
+    "connectionParameters": {
+      "sku": "Enterprise",
+      "workFlowCallbackUri": "https://prod-19.brazilsouth.logic.azure.com:443/workflows/0799e023ea6143cc8ca7381182543f32/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=-3Y6t2qtuo4Cy5QS7IBXNNbhXz1awbCXB7RcD5MNxTQ",
+      "workflowEndpoint": "/subscriptions/ce4eb7c9-9c8b-4133-9141-bac869f4b0a7/resourceGroups/33E09B16646D47C4AF9A3F421435625F-465FA5D430F44390BD6EBEEC3393DD8C/providers/Microsoft.Logic/workflows/a51f0f04-0a8c-4391-acf8-8880ace98876",
+      "workflowName": "a51f0f04-0a8c-4391-acf8-8880ace98876",
+      "workflowPath": "/subscriptions/ce4eb7c9-9c8b-4133-9141-bac869f4b0a7/resourceGroups/33E09B16646D47C4AF9A3F421435625F-465FA5D430F44390BD6EBEEC3393DD8C/providers/Microsoft.Logic/workflows/a51f0f04-0a8c-4391-acf8-8880ace98876"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Fluxos lógicos",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1615/1.0.1615.3163/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "a51f0f04-0a8c-4391-acf8-8880ace98876"
+        }
+      },
+      "parameterHintsV2": {
+        "workflowEntityId": {},
+        "workflowName": {
+          "value": "a51f0f04-0a8c-4391-acf8-8880ace98876"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ConsultaCep"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "50471254-8922-4980-9b2b-f48fb005d5a9"
+  }
+}

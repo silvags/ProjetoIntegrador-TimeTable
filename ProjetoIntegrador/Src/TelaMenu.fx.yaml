@@ -1,0 +1,313 @@
+TelaMenu As screen:
+    BackgroundImage: =
+    Fill: =RGBA(0, 0, 0, 0)
+    ImagePosition: =ImagePosition.Tile
+
+    Rectangle3_15 As rectangle:
+        Fill: =RGBA(122, 229, 130, 1)
+        Height: =171
+        Width: =640
+        Y: =965
+        ZIndex: =1
+
+    Rectangle3_14 As rectangle:
+        Fill: =RGBA(122, 229, 130, 1)
+        Height: =171
+        Width: =640
+        ZIndex: =2
+
+    Rectangle2 As rectangle:
+        Fill: =RGBA(122, 229, 130, 1)
+        Height: =1136
+        Width: =602
+        ZIndex: =3
+
+    Button3_9 As button:
+        Align: =Align.Left
+        BorderThickness: =0
+        Color: =RGBA(0, 78, 100, 1)
+        Fill: =RGBA(122, 229, 130, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =53
+        OnSelect: =Navigate(TelaAcesso)
+        Size: =22
+        Text: ="Sair"
+        Width: =96
+        X: =56
+        Y: =1041
+        ZIndex: =22
+
+    Image5 As image:
+        Height: =88
+        Image: ='19 1'
+        Width: =120
+        X: =404
+        Y: =1013
+        ZIndex: =23
+
+    Icon4 As icon.VerticalLine:
+        BorderColor: =RGBA(78, 175, 119, 1)
+        BorderThickness: =1
+        Height: =1136
+        Icon: =Icon.VerticalLine
+        Width: =1
+        X: =602
+        ZIndex: =28
+
+    Perfil As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =29
+
+        Image16 As image:
+            Height: =87
+            Image: ='Ellipse 1'
+            Width: =75
+            X: =49
+            Y: =42
+            ZIndex: =4
+
+        Label5 As label:
+            Color: =RGBA(51, 51, 51, 1)
+            Height: =70
+            Size: =21
+            Text: =User().FullName
+            Width: =300
+            X: =152
+            Y: =50
+            ZIndex: =5
+
+    "'Meu perfil' As group":
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =58
+
+        Image3_2 As image:
+            Height: =74
+            Image: ='10'
+            Width: =70
+            X: =49
+            Y: =229
+            ZIndex: =6
+
+        Image3_3 As image:
+            Height: =70
+            Image: ='24'
+            Width: =70
+            X: =49
+            Y: =317
+            ZIndex: =7
+
+        Button3_7 As button:
+            Align: =Align.Left
+            BorderThickness: =0
+            Color: =RGBA(0, 78, 100, 1)
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =43
+            OnSelect: =
+            Size: =20
+            Text: ="Atualizar meus dados"
+            Width: =375
+            X: =140
+            Y: =249
+            ZIndex: =20
+
+        Button3_8 As button:
+            Align: =Align.Left
+            BorderThickness: =0
+            Color: =RGBA(0, 78, 100, 1)
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =43
+            OnSelect: =
+            Size: =20
+            Text: ="Atualizar minha senha"
+            Width: =375
+            X: =140
+            Y: =330
+            ZIndex: =21
+
+        Label10 As label:
+            Color: =RGBA(0, 78, 100, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =60
+            Size: =23
+            Text: ="Meu perfil"
+            Width: =200
+            X: =59
+            Y: =149
+            ZIndex: =24
+
+        Icon3 As icon.HorizontalLine:
+            BorderColor: =RGBA(78, 175, 119, 1)
+            BorderThickness: =1
+            Height: =1
+            Icon: =Icon.HorizontalLine
+            Width: =450
+            X: =56
+            Y: =210
+            ZIndex: =25
+
+    Ferramentas As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =60
+
+        Image19 As image:
+            Height: =70
+            Image: ='25'
+            Width: =70
+            X: =49
+            Y: =504
+            ZIndex: =8
+
+        Image20 As image:
+            Height: =70
+            Image: ='7'
+            Width: =70
+            X: =49
+            Y: =585
+            ZIndex: =9
+
+        Image21 As image:
+            Height: =70
+            Image: ='29'
+            Width: =70
+            X: =49
+            Y: =670
+            ZIndex: =10
+
+        Image22 As image:
+            Height: =70
+            Image: ='26'
+            Width: =70
+            X: =49
+            Y: =760
+            ZIndex: =11
+
+        Image23 As image:
+            Height: =70
+            Image: ='32'
+            Width: =70
+            X: =49
+            Y: =845
+            ZIndex: =12
+
+        Image24 As image:
+            Height: =70
+            Image: ='28'
+            Width: =70
+            X: =49
+            Y: =925
+            ZIndex: =13
+
+        Button3_1 As button:
+            Align: =Align.Left
+            BorderThickness: =0
+            Color: =RGBA(0, 78, 100, 1)
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =43
+            OnSelect: =Navigate(CursoDisciplinas)
+            Size: =20
+            Text: ="Cursos e Disciplinas"
+            Width: =280
+            X: =140
+            Y: =520
+            ZIndex: =14
+
+        Button3_2 As button:
+            Align: =Align.Left
+            BorderThickness: =0
+            Color: =RGBA(0, 78, 100, 1)
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =43
+            OnSelect: =Navigate(Turma)
+            Size: =20
+            Text: ="Turma"
+            Width: =150
+            X: =140
+            Y: =600
+            ZIndex: =15
+
+        Button3_3 As button:
+            Align: =Align.Left
+            BorderThickness: =0
+            Color: =RGBA(0, 78, 100, 1)
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =43
+            OnSelect: =Navigate(NotasFrequencia)
+            Size: =20
+            Text: ="Notas e Frequência"
+            Width: =280
+            X: =140
+            Y: =685
+            ZIndex: =16
+
+        Button3_4 As button:
+            Align: =Align.Left
+            BorderThickness: =0
+            Color: =RGBA(0, 78, 100, 1)
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =48
+            OnSelect: =Navigate(Atividades)
+            Size: =20
+            Text: ="Atividades"
+            Width: =150
+            X: =140
+            Y: =770
+            ZIndex: =17
+
+        Button3_5 As button:
+            Align: =Align.Left
+            BorderThickness: =0
+            Color: =RGBA(0, 78, 100, 1)
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =44
+            OnSelect: =Navigate(Calendario)
+            Size: =20
+            Text: ="Calendário"
+            Width: =264
+            X: =140
+            Y: =858
+            ZIndex: =18
+
+        Button3_6 As button:
+            Align: =Align.Left
+            BorderThickness: =0
+            Color: =RGBA(0, 78, 100, 1)
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =43
+            OnSelect: =Navigate(Avisos)
+            Size: =20
+            Text: ="Mural de Avisos"
+            Width: =250
+            X: =140
+            Y: =940
+            ZIndex: =19
+
+        Label10_1 As label:
+            Color: =RGBA(0, 78, 100, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =60
+            Size: =23
+            Text: ="Ferramentas"
+            Width: =220
+            X: =66
+            Y: =416
+            ZIndex: =26
+
+        Icon3_1 As icon.HorizontalLine:
+            BorderColor: =RGBA(78, 175, 119, 1)
+            BorderThickness: =1
+            Height: =1
+            Icon: =Icon.HorizontalLine
+            Width: =450
+            X: =63
+            Y: =477
+            ZIndex: =27
+

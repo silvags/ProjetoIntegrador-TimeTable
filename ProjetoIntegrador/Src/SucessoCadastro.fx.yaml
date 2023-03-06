@@ -1,0 +1,142 @@
+SucessoCadastro As screen:
+    BackgroundImage: =
+    Fill: =RGBA(0, 0, 0, 0)
+    ImagePosition: =ImagePosition.Tile
+
+    Image2 As image:
+        Height: =386
+        Image: ='Group 3_1'
+        Width: =386
+        X: =127
+        Y: =209
+        ZIndex: =13
+
+    Label3 As label:
+        Align: =Align.Center
+        Color: =RGBA(37, 161, 142, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =25
+        Text: ="SEJA BEM VINDO(A)!"
+        Width: =560
+        X: =50
+        Y: =613
+        ZIndex: =14
+
+    Button2 As button:
+        Color: =RGBA(51, 51, 51, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =95
+        HoverFill: =ColorFade(RGBA(78, 135, 140, 1), -20%)
+        OnSelect: =
+        Size: =24
+        Text: =User().FullName
+        Width: =436
+        X: =112
+        Y: =679
+        ZIndex: =17
+
+    Button1_15 As button:
+        BorderColor: =RGBA(42,157,140,1000)
+        BorderThickness: =1
+        Fill: =RGBA(42, 157, 140, 1)
+        Height: =75
+        OnSelect: =Navigate(Home)
+        Size: =24
+        Text: ="ACESSAR"
+        Width: =350
+        X: =155
+        Y: =860
+        ZIndex: =18
+
+    Header_SucessoCadastro As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =20
+        ZIndex: =21
+
+        Rectangle3_32 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =125
+            Width: =640
+            ZIndex: =19
+
+        Image12_16 As image:
+            Height: =80
+            Image: ='NATAL 2022_1'
+            OnSelect: =Navigate(TelaAcesso)
+            Width: =102
+            X: =521
+            Y: =25
+            ZIndex: =20
+
+    Footer_SucessoCadastro As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =29
+
+        Rectangle3_33 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =140
+            Width: =640
+            Y: =996
+            ZIndex: =22
+
+        Facebook_5 As image:
+            Height: =65
+            Image: ='icons8-facebook-90'
+            TabIndex: =2
+            Width: =65
+            X: =84
+            Y: =1020
+            ZIndex: =23
+
+        Instagram_5 As image:
+            Height: =65
+            Image: ='icons8-instagram-128'
+            TabIndex: =2
+            Width: =65
+            X: =187
+            Y: =1020
+            ZIndex: =24
+
+        Linkedin_5 As image:
+            Height: =65
+            Image: ='icons8-linkedin-128'
+            TabIndex: =2
+            Width: =65
+            X: =289
+            Y: =1020
+            ZIndex: =25
+
+        Youtube_5 As image:
+            Height: =65
+            Image: ='icons8-youtube-squared-128'
+            TabIndex: =2
+            Width: =65
+            X: =390
+            Y: =1020
+            ZIndex: =26
+
+        Twitter_5 As image:
+            Height: =65
+            Image: ='icons8-twitter-squared-64'
+            TabIndex: =2
+            Width: =65
+            X: =490
+            Y: =1020
+            ZIndex: =27
+
+        "'Todos os direitos reservados_7' As label":
+            Align: =Align.Center
+            Color: =RGBA(105, 105, 105, 1)
+            Size: =14
+            Text: ="Todos os direitos reservados - 2023"
+            Width: =377
+            X: =144
+            Y: =1092
+            ZIndex: =28
+

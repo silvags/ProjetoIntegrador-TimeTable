@@ -1,0 +1,224 @@
+TelaLogin As screen:
+    BackgroundImage: =
+    Fill: =RGBA(0, 0, 0, 0)
+    ImagePosition: =ImagePosition.Tile
+
+    Image13 As image:
+        Height: =230
+        Image: ='27'
+        Width: =285
+        X: =171
+        Y: =172
+        ZIndex: =6
+
+    Button1_4 As button:
+        BorderColor: =RGBA(42,157,140,1000)
+        BorderThickness: =1
+        Fill: =RGBA(42, 157, 140, 1)
+        Height: =75
+        OnSelect: |-
+            =//Navigate(TelaMenu)
+            If(
+                !IsBlank(
+                    LookUp(
+                        Login,
+                        'E-mail' = TextInputEmail.Text And Senha = TextInputSenha.Text
+                    )
+                ),
+                Navigate(SucessoCadastro);
+                UpdateContext({MostrarMensagem: false}),
+            
+                 UpdateContext({MostrarMensagem: true});
+                 Reset(TextInputEmail),
+                 Reset(TextInputSenha)
+            )
+        Size: =24
+        Text: ="CONTINUAR"
+        Width: =473
+        X: =83
+        Y: =757
+        ZIndex: =9
+
+    TextInputEmail As text:
+        BorderColor: =RGBA(87, 150, 194, 1)
+        Default: =""
+        Height: =70
+        HintText: ="Insira seu e-mail"
+        PaddingLeft: =25
+        PaddingRight: =25
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =461
+        ZIndex: =17
+
+    TextInputSenha As text:
+        BorderColor: =RGBA(87, 150, 194, 1)
+        Default: =""
+        Height: =70
+        HintText: ="Insira sua senha"
+        Mode: =TextMode.Password
+        PaddingLeft: =25
+        PaddingRight: =25
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =608
+        ZIndex: =18
+
+    SenhaIncorreta As text:
+        Align: =Align.Center
+        BorderColor: =RGBA(255, 0, 0, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =1
+        Color: =RGBA(255, 0, 0, 1)
+        Default: ="E-mail ou senha incorretos!"
+        FontWeight: =FontWeight.Semibold
+        Height: =46
+        PaddingLeft: =25
+        PaddingRight: =25
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =18
+        Visible: =MostrarMensagem
+        Width: =560
+        X: =48
+        Y: =683
+        ZIndex: =19
+
+    "'E-mail' As label":
+        Color: =RGBA(105, 105, 105, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =49
+        Size: =20
+        Text: ="E-mail"
+        Width: =278
+        X: =40
+        Y: =411
+        ZIndex: =20
+
+    Senha As label:
+        Color: =RGBA(105, 105, 105, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =49
+        Size: =20
+        Text: |-
+            ="Senha
+            "
+        Width: =278
+        X: =40
+        Y: =559
+        ZIndex: =22
+
+    "'Esqueci senha | Suporte' As label":
+        Align: =Align.Center
+        Color: =RGBA(105, 105, 105, 1)
+        Height: =90
+        Size: =20
+        Text: ="Esqueci a senha | Suporte"
+        Width: =377
+        X: =125
+        Y: =874
+        ZIndex: =23
+
+    Footer_TelaLogin As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =30
+
+        Rectangle3_2 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =140
+            Width: =640
+            Y: =996
+            ZIndex: =14
+
+        Facebook As image:
+            Height: =65
+            Image: ='icons8-facebook-90'
+            TabIndex: =2
+            Width: =65
+            X: =84
+            Y: =1020
+            ZIndex: =24
+
+        Instagram As image:
+            Height: =65
+            Image: ='icons8-instagram-128'
+            TabIndex: =2
+            Width: =65
+            X: =187
+            Y: =1020
+            ZIndex: =25
+
+        Linkedin As image:
+            Height: =65
+            Image: ='icons8-linkedin-128'
+            TabIndex: =2
+            Width: =65
+            X: =289
+            Y: =1020
+            ZIndex: =26
+
+        Youtube As image:
+            Height: =65
+            Image: ='icons8-youtube-squared-128'
+            TabIndex: =2
+            Width: =65
+            X: =390
+            Y: =1020
+            ZIndex: =27
+
+        Twitter As image:
+            Height: =65
+            Image: ='icons8-twitter-squared-64'
+            TabIndex: =2
+            Width: =65
+            X: =490
+            Y: =1020
+            ZIndex: =28
+
+        "'Todos os direitos reservados_2' As label":
+            Align: =Align.Center
+            Color: =RGBA(105, 105, 105, 1)
+            Size: =14
+            Text: ="Todos os direitos reservados - 2023"
+            Width: =377
+            X: =144
+            Y: =1092
+            ZIndex: =29
+
+    Header_TelaLogin As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =30
+
+        Rectangle3 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =125
+            Width: =640
+            ZIndex: =1
+
+        Image12 As image:
+            Height: =80
+            Image: ='NATAL 2022_1'
+            OnSelect: =Navigate(TelaAcesso)
+            Width: =102
+            X: =521
+            Y: =25
+            ZIndex: =5
+

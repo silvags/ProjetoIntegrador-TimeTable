@@ -1,0 +1,401 @@
+TelaCadastro3 As screen:
+    BackgroundImage: =
+    Fill: =RGBA(0, 0, 0, 0)
+    ImagePosition: =ImagePosition.Tile
+
+    Button1_5 As button:
+        BorderColor: =RGBA(42,157,140,1000)
+        BorderThickness: =1
+        Fill: =RGBA(42, 157, 140, 1)
+        Height: =75
+        OnSelect: =Navigate(SucessoCadastro);SubmitForm(FormDados);SubmitForm(FormLogin)
+        Size: =24
+        Text: ="CADASTRAR"
+        Width: =350
+        X: =152
+        Y: =900
+        ZIndex: =16
+
+    Label2 As label:
+        Color: =RGBA(51, 51, 51, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =50
+        Size: =19
+        Text: |-
+            ="CEP:"
+        X: =30
+        Y: =314
+        ZIndex: =20
+
+    Icon1 As icon.Search:
+        BorderColor: =RGBA(0, 165, 207, 1)
+        Color: =RGBA(42, 157, 140, 1)
+        Height: =58
+        Icon: =Icon.Search
+        OnSelect: =Set(VarConsultaCep,ConsultaCep.Run(TxtCep.Text))
+        Width: =74
+        X: =540
+        Y: =369
+        ZIndex: =22
+
+    Label6 As label:
+        Color: =RGBA(51, 51, 51, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =50
+        Size: =19
+        Text: ="Logradouro"
+        Width: =180
+        X: =30
+        Y: =441
+        ZIndex: =24
+
+    TxtCep As text:
+        BorderColor: =RGBA(0, 165, 207, 1)
+        Default: =""
+        EnableSpellCheck: =true
+        Height: =70
+        HintText: ="00000000"
+        MaxLength: =8
+        OnSelect: =
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =21
+        Width: =480
+        X: =30
+        Y: =363
+        ZIndex: =26
+
+    TxtCep_1 As text:
+        BorderColor: =RGBA(0, 165, 207, 1)
+        Default: =VarConsultaCep.logradouro
+        Height: =70
+        HintText: ="Rua, Avenida"
+        OnSelect: =//Set(VarConsultaCep;ConsultaCep.Run(TxtCep.Text))
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =21
+        Width: =400
+        X: =30
+        Y: =492
+        ZIndex: =27
+
+    TxtCep_2 As text:
+        BorderColor: =RGBA(0, 165, 207, 1)
+        Color: =RGBA(128, 128, 128, 1)
+        Default: =""
+        FontWeight: =FontWeight.Lighter
+        Height: =70
+        HintText: |-
+            ="Ex: Apartamento / Bloco A / Casa C"
+        OnSelect: =
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =21
+        Width: =580
+        X: =30
+        Y: =620
+        ZIndex: =28
+
+    Label6_1 As label:
+        Color: =RGBA(51, 51, 51, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =50
+        Size: =19
+        Text: ="Número"
+        Width: =180
+        X: =460
+        Y: =441
+        ZIndex: =29
+
+    TxtCep_3 As text:
+        BorderColor: =RGBA(0, 165, 207, 1)
+        Default: =
+        Height: =70
+        OnSelect: =
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =21
+        Width: =150
+        X: =458
+        Y: =492
+        ZIndex: =30
+
+    Label6_2 As label:
+        Color: =RGBA(51, 51, 51, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =50
+        Size: =19
+        Text: ="Complemento"
+        Width: =200
+        X: =30
+        Y: =571
+        ZIndex: =31
+
+    Label6_3 As label:
+        Color: =RGBA(51, 51, 51, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =50
+        Size: =19
+        Text: ="Cidade"
+        Width: =180
+        X: =30
+        Y: =698
+        ZIndex: =32
+
+    Label6_4 As label:
+        Color: =RGBA(51, 51, 51, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =50
+        Size: =19
+        Text: ="Estado"
+        Width: =180
+        X: =385
+        Y: =698
+        ZIndex: =33
+
+    TxtCep_4 As text:
+        BorderColor: =RGBA(0, 165, 207, 1)
+        Default: =VarConsultaCep.cidade
+        Height: =70
+        OnSelect: =
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =21
+        Width: =325
+        X: =30
+        Y: =746
+        ZIndex: =34
+
+    TxtCep_5 As text:
+        BorderColor: =RGBA(0, 165, 207, 1)
+        Default: =VarConsultaCep.uf
+        EnableSpellCheck: =true
+        Height: =70
+        MaxLength: =2
+        OnSelect: =
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =21
+        Width: =225
+        X: =385
+        Y: =746
+        ZIndex: =35
+
+    Checkbox2 As checkbox:
+        BorderColor: =RGBA(0, 0, 0, 0)
+        CheckboxBorderColor: =RGBA(102, 182, 227, 1)
+        CheckboxSize: =45
+        Size: =21
+        Text: =""
+        Width: =50
+        X: =30
+        Y: =827
+        ZIndex: =36
+
+    Label4 As label:
+        Color: =RGBA(51, 51, 51, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =54
+        Size: =19
+        Text: ="Celular"
+        Width: =560
+        X: =30
+        Y: =186
+        ZIndex: =37
+
+    TextInput1 As text:
+        BorderColor: =RGBA(0, 165, 207, 1)
+        Default: =numeroCelular
+        EnableSpellCheck: =true
+        Height: =70
+        HintText: ="(00) 00000-0000"
+        MaxLength: =14
+        OnChange: |-
+            =Set(numeroCelular, Text(Value(TextInput1.Text),"[$-pt-BR](##)#####-####"))
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Size: =21
+        Width: =580
+        X: =30
+        Y: =237
+        ZIndex: =38
+
+    Header_TelaCadastro3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =20
+        ZIndex: =42
+
+        Rectangle3_16 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =125
+            Width: =640
+            ZIndex: =39
+
+        Image12_8 As image:
+            Height: =80
+            Image: ='NATAL 2022_1'
+            OnSelect: =Navigate(TelaAcesso)
+            Width: =102
+            X: =521
+            Y: =25
+            ZIndex: =41
+
+    Footer_TelaCadastro3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =50
+
+        Rectangle3_17 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =140
+            Width: =640
+            Y: =996
+            ZIndex: =43
+
+        Facebook_4 As image:
+            Height: =65
+            Image: ='icons8-facebook-90'
+            TabIndex: =2
+            Width: =65
+            X: =84
+            Y: =1020
+            ZIndex: =44
+
+        Instagram_4 As image:
+            Height: =65
+            Image: ='icons8-instagram-128'
+            TabIndex: =2
+            Width: =65
+            X: =187
+            Y: =1020
+            ZIndex: =45
+
+        Linkedin_4 As image:
+            Height: =65
+            Image: ='icons8-linkedin-128'
+            TabIndex: =2
+            Width: =65
+            X: =289
+            Y: =1020
+            ZIndex: =46
+
+        Youtube_4 As image:
+            Height: =65
+            Image: ='icons8-youtube-squared-128'
+            TabIndex: =2
+            Width: =65
+            X: =390
+            Y: =1020
+            ZIndex: =47
+
+        Twitter_4 As image:
+            Height: =65
+            Image: ='icons8-twitter-squared-64'
+            TabIndex: =2
+            Width: =65
+            X: =490
+            Y: =1020
+            ZIndex: =48
+
+        "'Todos os direitos reservados_6' As label":
+            Align: =Align.Center
+            Color: =RGBA(105, 105, 105, 1)
+            Size: =14
+            Text: ="Todos os direitos reservados - 2023"
+            Width: =377
+            X: =144
+            Y: =1092
+            ZIndex: =49
+
+    Titulo_TelaCadastro3 As group:
+        Height: =5
+        Width: =5
+        X: =20
+        Y: =20
+        ZIndex: =52
+
+        Image1_3 As image:
+            Height: =47
+            Image: ='18'
+            Width: =69
+            X: =176
+            Y: =140
+            ZIndex: =50
+
+        Label1_5 As label:
+            Color: =RGBA(0, 78, 100, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =60
+            Size: =26
+            Text: ="Cadastro"
+            Width: =215
+            X: =248
+            Y: =135
+            ZIndex: =51
+
+    Arrow2_1 As arrow.backArrow:
+        BorderColor: =RGBA(42, 157, 140, 1)
+        BorderThickness: =3
+        Fill: =RGBA(42, 157, 140, 1)
+        OnSelect: =Navigate(TelaCadastro2)
+        X: =34
+        Y: =925
+        ZIndex: =55
+
+    "'Politica Privacidade' As group":
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =55
+
+        "'Aceito a' As label":
+            Color: =RGBA(51, 51, 51, 1)
+            Height: =43
+            Size: =18
+            Text: ="Aceito a"
+            Width: =100
+            X: =85
+            Y: =834
+            ZIndex: =52
+
+        "'Politica de privacidade' As label":
+            Color: =RGBA(0, 18, 107, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =43
+            Size: =18
+            Text: ="Política de Privacidade"
+            Underline: =true
+            Width: =275
+            X: =190
+            Y: =834
+            ZIndex: =53
+
+        Timetable As label:
+            Color: =RGBA(51, 51, 51, 1)
+            Height: =43
+            Size: =18
+            Text: ="Timetable"
+            Width: =125
+            X: =465
+            Y: =834
+            ZIndex: =54
+

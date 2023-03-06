@@ -1,0 +1,70 @@
+TelaAcesso As screen:
+    Fill: =RGBA(122, 229, 130, 1)
+
+    Image6 As image:
+        Height: =500
+        Image: ='Group 3'
+        Width: =473
+        X: =81
+        Y: =121
+        ZIndex: =8
+
+    Button1 As button:
+        BorderColor: =RGBA(42,157,140,1000)
+        BorderThickness: =1
+        Fill: =RGBA(42, 157, 140, 1)
+        Height: =75
+        OnSelect: =Navigate(TelaLogin)
+        Size: =24
+        Text: ="ACESSE"
+        Width: =473
+        X: =82
+        Y: =668
+        ZIndex: =12
+
+    Button1_1 As button:
+        BorderColor: =RGBA(42,157,140,1000)
+        BorderThickness: =1
+        Fill: =RGBA(42, 157, 140, 1)
+        Height: =75
+        OnSelect: =Navigate(TelaCadastro1)
+        Size: =24
+        Text: ="CADASTRE-SE AGORA"
+        Width: =473
+        X: =82
+        Y: =862
+        ZIndex: =13
+
+    "'Já tem cadastro' As label":
+        Color: =RGBA(105, 105, 105, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =22
+        Text: ="Já tem cadastro?"
+        Width: =246
+        X: =194
+        Y: =598
+        ZIndex: =14
+
+    "'Não tem cadastro' As label":
+        Color: =RGBA(105, 105, 105, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Size: =22
+        Text: ="Não tem cadastro?"
+        Width: =278
+        X: =180
+        Y: =792
+        ZIndex: =15
+
+    "'Todos os direitos reservados' As label":
+        Align: =Align.Center
+        Color: =RGBA(105, 105, 105, 1)
+        Height: =44
+        Size: =14
+        Text: ="Todos os direitos reservados - 2023"
+        Width: =377
+        X: =139
+        Y: =1092
+        ZIndex: =16
+

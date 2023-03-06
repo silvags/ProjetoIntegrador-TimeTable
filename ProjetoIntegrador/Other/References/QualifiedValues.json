@@ -1,0 +1,81 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr65a_login_forms",
+      "Namespace": "Login (Formulários)",
+      "Values": {
+        "Informações": "9a584127-2b81-43c8-89da-bc66e60fdcbf"
+      }
+    },
+    {
+      "Kind": "default.cds_cr65a_dadosaluno_forms",
+      "Namespace": "Dados Aluno (Formulários)",
+      "Values": {
+        "Informações": "0dc2f5ce-daf7-4185-bc97-f9cc1c3d8dd6"
+      }
+    },
+    {
+      "Kind": "default.cds_cr65a_login_forms",
+      "Namespace": "Login (Formularios)",
+      "Values": {
+        "Informações": "9a584127-2b81-43c8-89da-bc66e60fdcbf"
+      }
+    },
+    {
+      "Kind": "default.cds_cr65a_dadosaluno_forms",
+      "Namespace": "Dados Aluno (Formularios)",
+      "Values": {
+        "Informações": "0dc2f5ce-daf7-4185-bc97-f9cc1c3d8dd6"
+      }
+    },
+    {
+      "Kind": "default.cds_cr65a_cadastro_forms",
+      "Namespace": "Cadastro (Formulários)",
+      "Values": {
+        "Informações": "3b865421-5149-4527-bc1b-daa1c1ac1a8b"
+      }
+    },
+    {
+      "Kind": "default.cds_cr65a_cursosdisciplinas_forms",
+      "Namespace": "CursosDisciplinas (Formulários)",
+      "Values": {
+        "Informações": "7cd5cf29-1171-4d73-9514-6263f13b9a28"
+      }
+    },
+    {
+      "Kind": "default.cds_cr65a_cursosdisciplinas_1_forms",
+      "Namespace": "CursosDisciplinas (Formulários)1",
+      "Values": {
+        "Informações": "e554d970-a71d-47f5-9385-3370c0409af9"
+      }
+    },
+    {
+      "Kind": "default.cds_cr65a_cursosdisciplinas_forms",
+      "Namespace": "CursosDisciplinas_1 (Formulários)",
+      "Values": {
+        "Informações": "7cd5cf29-1171-4d73-9514-6263f13b9a28"
+      }
+    },
+    {
+      "Kind": "default.cds_cr65a_cursosdisciplinas_1_forms",
+      "Namespace": "CursosDisciplinas (Formulários)2",
+      "Values": {
+        "Informações": "e554d970-a71d-47f5-9385-3370c0409af9"
+      }
+    },
+    {
+      "Kind": "default.cds_cr65a_cursosdisciplinas_1_forms",
+      "Namespace": "CursosDisciplinas (Formulários)3",
+      "Values": {
+        "Informações": "e554d970-a71d-47f5-9385-3370c0409af9"
+      }
+    },
+    {
+      "Kind": "default.cds_cr65a_cursosdisciplinas_1_forms",
+      "Namespace": "CursosDisciplinas (Formulários)4",
+      "Values": {
+        "Informações": "e554d970-a71d-47f5-9385-3370c0409af9"
+      }
+    }
+  ]
+}

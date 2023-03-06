@@ -1,0 +1,268 @@
+Home As screen:
+
+    Icon2_2 As icon.Hamburger:
+        Color: =RGBA(0, 165, 207, 1)
+        FocusedBorderThickness: =10
+        Icon: =Icon.Hamburger
+        OnSelect: =Navigate(TelaMenu)
+        X: =30
+        Y: =53
+        ZIndex: =4
+
+    Footer_Home As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =26
+
+        Rectangle3_35 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =140
+            Width: =640
+            Y: =996
+            ZIndex: =19
+
+        Facebook_6 As image:
+            Height: =65
+            Image: ='icons8-facebook-90'
+            TabIndex: =2
+            Width: =65
+            X: =84
+            Y: =1020
+            ZIndex: =20
+
+        Instagram_6 As image:
+            Height: =65
+            Image: ='icons8-instagram-128'
+            TabIndex: =2
+            Width: =65
+            X: =187
+            Y: =1020
+            ZIndex: =21
+
+        Linkedin_6 As image:
+            Height: =65
+            Image: ='icons8-linkedin-128'
+            TabIndex: =2
+            Width: =65
+            X: =289
+            Y: =1020
+            ZIndex: =22
+
+        Youtube_6 As image:
+            Height: =65
+            Image: ='icons8-youtube-squared-128'
+            TabIndex: =2
+            Width: =65
+            X: =390
+            Y: =1020
+            ZIndex: =23
+
+        Twitter_6 As image:
+            Height: =65
+            Image: ='icons8-twitter-squared-64'
+            TabIndex: =2
+            Width: =65
+            X: =490
+            Y: =1020
+            ZIndex: =24
+
+        "'Todos os direitos reservados_8' As label":
+            Align: =Align.Center
+            Color: =RGBA(105, 105, 105, 1)
+            Size: =14
+            Text: ="Todos os direitos reservados - 2023"
+            Width: =377
+            X: =144
+            Y: =1092
+            ZIndex: =25
+
+    Header_Home As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =28
+
+        Rectangle3_34 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =125
+            Width: =640
+            ZIndex: =16
+
+        Image12_17 As image:
+            Height: =80
+            Image: ='NATAL 2022_1'
+            OnSelect: =Navigate(TelaAcesso)
+            Width: =102
+            X: =521
+            Y: =25
+            ZIndex: =17
+
+        Icon2_4 As icon.Hamburger:
+            Color: =RGBA(0, 165, 207, 1)
+            FocusedBorderThickness: =10
+            Height: =55
+            Icon: =Icon.Hamburger
+            OnSelect: =Navigate(TelaMenu)
+            Width: =55
+            X: =39
+            Y: =37
+            ZIndex: =27
+
+    UltimosAvisos As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =31
+
+        Rectangle1 As rectangle:
+            BorderColor: =RGBA(102, 182, 227, 1)
+            BorderThickness: =2
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =315
+            Width: =507
+            X: =48
+            Y: =212
+            ZIndex: =1
+
+        Label8 As label:
+            Color: =RGBA(51, 51, 51, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =63
+            Size: =23
+            Text: ="Divulgado boletim semestral"
+            Width: =460
+            X: =78
+            Y: =231
+            ZIndex: =8
+
+        Label9 As label:
+            Height: =118
+            Size: =21
+            Text: ="Informamos que na tarde desta segunda-feira, 5, foi divulgado o boletim mensal do..."
+            Width: =446
+            X: =78
+            Y: =291
+            ZIndex: =9
+
+        Button3 As button:
+            DisplayMode: =DisplayMode.View
+            Fill: |
+                =RGBA(42, 157, 140, 1)
+            Height: =63
+            OnSelect: =Navigate(Avisos)
+            Size: =24
+            Text: ="Ler mais"
+            Width: =244
+            X: =78
+            Y: =435
+            ZIndex: =10
+
+        Label1_2 As label:
+            Color: =RGBA(0, 78, 100, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =60
+            Size: =26
+            Text: ="ÚLTIMOS AVISOS"
+            Width: =360
+            X: =152
+            Y: =135
+            ZIndex: =29
+
+        Icon2 As icon.ChevronRight:
+            Height: =40
+            Icon: =Icon.ChevronRight
+            Width: =40
+            X: =575
+            Y: =336
+            ZIndex: =30
+
+    UltimasAtividades As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =38
+
+        Rectangle1_5 As rectangle:
+            BorderColor: =RGBA(102, 182, 227, 1)
+            BorderThickness: =2
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =335
+            Width: =507
+            X: =47
+            Y: =629
+            ZIndex: =31
+
+        Label8_2 As label:
+            Align: =Align.Center
+            Color: =RGBA(51, 51, 51, 1)
+            Fill: =RGBA(237, 237, 237, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =63
+            Size: =25
+            Text: ="Sistemas Operacionais"
+            Width: =450
+            X: =77
+            Y: =720
+            ZIndex: =32
+
+        Label9_2 As label:
+            Height: =59
+            Size: =21
+            Text: |-
+                ="Prazo de entrega: 27/03/2023"
+            Width: =446
+            X: =77
+            Y: =796
+            ZIndex: =33
+
+        Button3_13 As button:
+            DisplayMode: =DisplayMode.View
+            Fill: |
+                =RGBA(42, 157, 140, 1)
+            Height: =63
+            OnSelect: =Navigate(Atividades)
+            Size: =24
+            Text: ="Ver atividade"
+            Width: =275
+            X: =77
+            Y: =878
+            ZIndex: =34
+
+        Label1_4 As label:
+            Color: =RGBA(0, 78, 100, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =60
+            Size: =26
+            Text: ="ATIVIDADES"
+            Width: =230
+            X: =193
+            Y: =556
+            ZIndex: =35
+
+        Icon2_1 As icon.ChevronRight:
+            Height: =40
+            Icon: =Icon.ChevronRight
+            Width: =40
+            X: =574
+            Y: =779
+            ZIndex: =36
+
+        Label9_3 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(152, 208, 70, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =25
+            Text: ="EM ANDAMENTO"
+            Width: =175
+            X: =81
+            Y: =667
+            ZIndex: =37
+

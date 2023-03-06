@@ -1,0 +1,210 @@
+"'Visualizar Notas e Frequência' As screen":
+
+    Button1_16 As button:
+        BorderColor: =RGBA(42,157,140,1000)
+        BorderThickness: =1
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(42, 157, 140, 1)
+        Height: =70
+        OnSelect: =Navigate(SucessoCadastro)
+        Size: =24
+        Text: ="VOLTAR"
+        Width: =400
+        X: =106
+        Y: =866
+        ZIndex: =6
+
+    Rectangle1_2 As rectangle:
+        BorderColor: =RGBA(102, 182, 227, 1)
+        BorderThickness: =2
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =262
+        Width: =541
+        X: =50
+        Y: =576
+        ZIndex: =7
+
+    Label12_1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =38
+        Size: =21
+        Text: |-
+            ="Aluno:"
+        Width: =102
+        X: =50
+        Y: =303
+        ZIndex: =8
+
+    Label13_1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =33
+        Size: =21
+        Text: |-
+            ="Matrícula:"
+        Width: =170
+        X: =50
+        Y: =358
+        ZIndex: =9
+
+    Label14_1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =30
+        Size: =21
+        Text: |-
+            ="Curso:"
+        Width: =110
+        X: =50
+        Y: =410
+        ZIndex: =10
+
+    Label15_1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =33
+        Size: =21
+        Text: |-
+            ="Período letivo:"
+        Width: =217
+        X: =50
+        Y: =467
+        ZIndex: =11
+
+    Label1_21 As label:
+        Color: =RGBA(0, 78, 100, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =25
+        Text: ="NOTAS E FREQUÊNCIA"
+        Width: =450
+        X: =146
+        Y: =205
+        ZIndex: =12
+
+    Image25_7 As image:
+        Height: =69
+        Image: ='29'
+        Width: =90
+        X: =43
+        Y: =206
+        ZIndex: =13
+
+    Label17 As label:
+        Height: =70
+        Size: =21
+        Text: =User().FullName
+        Width: =436
+        X: =155
+        Y: =288
+        ZIndex: =14
+
+    Label18 As label:
+        Height: =46
+        Size: =21
+        Text: =
+        Width: =448
+        X: =155
+        Y: =402
+        ZIndex: =15
+
+    Footer_VisNotasFrequencia As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =23
+
+        Rectangle3_48 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =140
+            Width: =640
+            Y: =996
+            ZIndex: =16
+
+        Facebook_13 As image:
+            Height: =65
+            Image: ='icons8-facebook-90'
+            TabIndex: =2
+            Width: =65
+            X: =84
+            Y: =1020
+            ZIndex: =17
+
+        Instagram_13 As image:
+            Height: =65
+            Image: ='icons8-instagram-128'
+            TabIndex: =2
+            Width: =65
+            X: =187
+            Y: =1020
+            ZIndex: =18
+
+        Linkedin_13 As image:
+            Height: =65
+            Image: ='icons8-linkedin-128'
+            TabIndex: =2
+            Width: =65
+            X: =289
+            Y: =1020
+            ZIndex: =19
+
+        Youtube_13 As image:
+            Height: =65
+            Image: ='icons8-youtube-squared-128'
+            TabIndex: =2
+            Width: =65
+            X: =390
+            Y: =1020
+            ZIndex: =20
+
+        Twitter_13 As image:
+            Height: =65
+            Image: ='icons8-twitter-squared-64'
+            TabIndex: =2
+            Width: =65
+            X: =490
+            Y: =1020
+            ZIndex: =21
+
+        "'Todos os direitos reservados_15' As label":
+            Align: =Align.Center
+            Color: =RGBA(105, 105, 105, 1)
+            Size: =14
+            Text: ="Todos os direitos reservados - 2023"
+            Width: =377
+            X: =144
+            Y: =1092
+            ZIndex: =22
+
+    Header_VisNotasFrequencia As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =20
+        ZIndex: =27
+
+        Rectangle3_49 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =125
+            Width: =640
+            ZIndex: =24
+
+        Image12_24 As image:
+            Height: =80
+            Image: ='NATAL 2022_1'
+            OnSelect: =Navigate(TelaAcesso)
+            Width: =102
+            X: =521
+            Y: =19
+            ZIndex: =25
+
+        Icon2_18 As icon.Hamburger:
+            Color: =RGBA(0, 165, 207, 1)
+            FocusedBorderThickness: =10
+            Height: =55
+            Icon: =Icon.Hamburger
+            OnSelect: =Navigate(TelaMenu)
+            Width: =55
+            X: =39
+            Y: =31
+            ZIndex: =26
+

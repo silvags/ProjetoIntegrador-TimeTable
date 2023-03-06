@@ -1,0 +1,497 @@
+TelaCadastro1 As screen:
+    BackgroundImage: =
+    Fill: =RGBA(0, 0, 0, 0)
+    ImagePosition: =ImagePosition.Tile
+    OnVisible: =
+
+    Arrow1 As arrow:
+        BorderColor: =RGBA(37, 161, 142, 1)
+        BorderThickness: =3
+        DisabledBorderColor: =RGBA(37, 161, 142, 1)
+        Fill: =RGBA(37, 161, 142, 1)
+        OnSelect: =Navigate(TelaCadastro2)
+        X: =295
+        Y: =925
+        ZIndex: =14
+
+    FormLogin As form:
+        DataSource: =Login
+        DefaultMode: =FormMode.New
+        Height: =601
+        Width: =640
+        Y: =200
+        ZIndex: =15
+
+        "'E-mail_DataCard1' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(0, 165, 207, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="cr65a_email"
+            Default: =ThisItem.'E-mail'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Login],DataSourceInfo.DisplayName,"cr65a_email")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@Login], DataSourceInfo.MaxLength, "cr65a_email")
+            Required: =false
+            Update: =entradaEmail.Text
+            Width: =640
+            X: =0
+            Y: =-13
+            ZIndex: =1
+
+            DataCardKey6 As label:
+                AutoHeight: =true
+                Color: =RGBA(51, 51, 51, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =19
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                ZIndex: =1
+
+            entradaEmail As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =70
+                HintText: ="Digite seu e-mail"
+                MaxLength: =Parent.MaxLength
+                OnSelect: |-
+                    =If(
+                        IsBlank(entradaEmail),
+                        Notify(
+                            "Favor preencher o campo solicitado!",
+                            NotificationType.Information
+                        )
+                    )
+                PaddingLeft: =25
+                PaddingRight: =25
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =49
+                ZIndex: =2
+
+            ErrorMessage5 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                OnSelect: =Notify(ThisItem.'Confirmar E-mail')
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =entradaEmail.Y + entradaEmail.Height
+                ZIndex: =3
+
+            StarVisible5 As label:
+                Align: =Align.Center
+                Height: =DataCardKey6.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                ZIndex: =4
+
+        "'Confirmar E-mail_DataCard1' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(0, 165, 207, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="cr65a_confirmaremail"
+            Default: =ThisItem.'Confirmar E-mail'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Login],DataSourceInfo.DisplayName,"cr65a_confirmaremail")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@Login], DataSourceInfo.MaxLength, "cr65a_confirmaremail")
+            Required: =false
+            Update: =ConfirmaEmail.Text
+            Width: =640
+            X: =0
+            Y: =126
+            ZIndex: =1
+
+            DataCardKey3 As label:
+                AutoHeight: =true
+                Color: =RGBA(56, 56, 56, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =19
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ConfirmaEmail As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =70
+                HintText: ="Confirme seu e-mail"
+                MaxLength: =Parent.MaxLength
+                OnSelect: |+
+                    =
+                    If(
+                        IsBlank(ConfirmaEmail),
+                        Notify(
+                            "Favor preencher o campo solicitado!",
+                            NotificationType.Information
+                        )
+                    )
+                    
+                    
+                PaddingLeft: =25
+                PaddingRight: =25
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey3.Y + DataCardKey3.Height + 5
+                ZIndex: =2
+
+            ErrorMessage2 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =ConfirmaEmail.Y + ConfirmaEmail.Height
+                ZIndex: =3
+
+            StarVisible2 As label:
+                Align: =Align.Center
+                Height: =DataCardKey3.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey3.Y
+                ZIndex: =4
+
+        Senha_DataCard1 As typedDataCard.textualEditCard:
+            BorderColor: =RGBA(0, 165, 207, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: |
+                =0
+            DataField: ="cr65a_senha"
+            Default: =ThisItem.Senha
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Login],DataSourceInfo.DisplayName,"cr65a_senha")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@Login], DataSourceInfo.MaxLength, "cr65a_senha")
+            Required: =false
+            Update: =DigitarSenha.Text
+            Width: =640
+            X: =0
+            Y: =265
+            ZIndex: =1
+
+            DataCardKey5 As label:
+                AutoHeight: =true
+                Color: =RGBA(56, 56, 56, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =19
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            DigitarSenha As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =70
+                HintText: ="Digite sua senha"
+                MaxLength: =Parent.MaxLength
+                Mode: =TextMode.Password
+                PaddingLeft: =25
+                PaddingRight: =25
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey5.Y + DataCardKey5.Height + 5
+                ZIndex: =2
+
+            ErrorMessage4 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DigitarSenha.Y + DigitarSenha.Height
+                ZIndex: =3
+
+            StarVisible4 As label:
+                Align: =Align.Center
+                Height: =DataCardKey5.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey5.Y
+                ZIndex: =4
+
+        "'Confirmar Senha_DataCard1' As typedDataCard.textualEditCard":
+            BorderColor: =RGBA(0, 165, 207, 1)
+            BorderStyle: =BorderStyle.Solid
+            DataField: ="cr65a_confirmarsenha"
+            Default: =ThisItem.'Confirmar Senha'
+            DisplayMode: =Parent.DisplayMode
+            DisplayName: =DataSourceInfo([@Login],DataSourceInfo.DisplayName,"cr65a_confirmarsenha")
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =50
+            MaxLength: =DataSourceInfo([@Login], DataSourceInfo.MaxLength, "cr65a_confirmarsenha")
+            Required: =false
+            Update: =ConfirmarSenha.Text
+            Width: =640
+            X: =0
+            Y: =404
+            ZIndex: =1
+
+            DataCardKey4 As label:
+                AutoHeight: =true
+                Color: =RGBA(56, 56, 56, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =48
+                Size: =19
+                Text: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                Wrap: =false
+                X: =30
+                Y: =10
+                ZIndex: =1
+
+            ConfirmarSenha As text:
+                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                Default: =Parent.Default
+                DelayOutput: =true
+                DisplayMode: =Parent.DisplayMode
+                Height: =70
+                HintText: ="Confirme sua senha"
+                MaxLength: =Parent.MaxLength
+                Mode: =TextMode.Password
+                PaddingLeft: =25
+                PaddingRight: =25
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
+                Size: =21
+                Tooltip: =Parent.DisplayName
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =DataCardKey4.Y + DataCardKey4.Height + 5
+                ZIndex: =2
+
+            ErrorMessage3 As label:
+                AutoHeight: =true
+                Height: =10
+                Live: =Live.Assertive
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Size: =24
+                Text: =Parent.Error
+                Visible: =Parent.DisplayMode=DisplayMode.Edit
+                Width: =Parent.Width - 60
+                X: =30
+                Y: =ConfirmarSenha.Y + ConfirmarSenha.Height
+                ZIndex: =3
+
+            StarVisible3 As label:
+                Align: =Align.Center
+                Height: =DataCardKey4.Height
+                Size: =21
+                Text: ="*"
+                Visible: =And(Parent.Required, Parent.DisplayMode=DisplayMode.Edit)
+                Width: =30
+                Wrap: =false
+                Y: =DataCardKey4.Y
+                ZIndex: =4
+
+    Titulo_TelaCadastro1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =26
+
+        Image1 As image:
+            Height: =47
+            Image: ='18'
+            Width: =69
+            X: =176
+            Y: =140
+            ZIndex: =12
+
+        Label1 As label:
+            Color: =RGBA(0, 78, 100, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =60
+            Size: =26
+            Text: ="Cadastro"
+            Width: =215
+            X: =248
+            Y: =135
+            ZIndex: =13
+
+    Footer_TelaCadastro As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =40
+
+        Rectangle3_4 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =140
+            Width: =640
+            Y: =996
+            ZIndex: =33
+
+        Facebook_1 As image:
+            Height: =65
+            Image: ='icons8-facebook-90'
+            TabIndex: =2
+            Width: =65
+            X: =84
+            Y: =1020
+            ZIndex: =34
+
+        Instagram_1 As image:
+            Height: =65
+            Image: ='icons8-instagram-128'
+            TabIndex: =2
+            Width: =65
+            X: =187
+            Y: =1020
+            ZIndex: =35
+
+        Linkedin_1 As image:
+            Height: =65
+            Image: ='icons8-linkedin-128'
+            TabIndex: =2
+            Width: =65
+            X: =289
+            Y: =1020
+            ZIndex: =36
+
+        Youtube_1 As image:
+            Height: =65
+            Image: ='icons8-youtube-squared-128'
+            TabIndex: =2
+            Width: =65
+            X: =390
+            Y: =1020
+            ZIndex: =37
+
+        Twitter_1 As image:
+            Height: =65
+            Image: ='icons8-twitter-squared-64'
+            TabIndex: =2
+            Width: =65
+            X: =490
+            Y: =1020
+            ZIndex: =38
+
+        "'Todos os direitos reservados_3' As label":
+            Align: =Align.Center
+            Color: =RGBA(105, 105, 105, 1)
+            Size: =14
+            Text: ="Todos os direitos reservados - 2023"
+            Width: =377
+            X: =144
+            Y: =1092
+            ZIndex: =39
+
+    lbErroEntradaEmail As label:
+        Color: =RGBA(255, 0, 0, 1)
+        Height: =70
+        Size: =21
+        Text: =If(IsMatch(entradaEmail.Text,Match.Email,MatchOptions.Contains),"","e-mail inválido")
+        Visible: =!IsBlank(entradaEmail.Text)
+        Width: =200
+        X: =406
+        Y: =320
+        ZIndex: =43
+
+    Header_TelaCadastro1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =20
+        ZIndex: =43
+
+        Rectangle3_1 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =125
+            Width: =640
+            ZIndex: =40
+
+        Image12_1 As image:
+            Height: =80
+            Image: ='NATAL 2022_1'
+            OnSelect: =Navigate(TelaAcesso)
+            Width: =102
+            X: =521
+            Y: =25
+            ZIndex: =42
+
+    lbErroConfirmaEmail As label:
+        Color: =RGBA(255, 0, 0, 1)
+        Height: =70
+        Size: =21
+        Text: =If(IsMatch(ConfirmaEmail.Text,Match.Email,MatchOptions.Contains),"","e-mail inválido!")
+        Visible: =!IsBlank(ConfirmaEmail.Text)
+        Width: =250
+        X: =356
+        Y: =454
+        ZIndex: =44
+
