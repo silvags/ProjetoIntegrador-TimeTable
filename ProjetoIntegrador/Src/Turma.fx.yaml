@@ -59,7 +59,8 @@ Turma As screen:
         BorderColor: =RGBA(102, 182, 227, 1)
         ChevronBackground: =RGBA(102, 182, 227, 1)
         Height: =70
-        Items: =Distinct(CollectTeste,CURSO)
+        Items: |-
+            =ForAll(Distinct(CollectTeste,CURSO), {Result: ThisRecord.Value})
         OnSelect: |-
             =ClearCollect(
                 CollectTeste,
