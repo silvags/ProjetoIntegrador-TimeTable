@@ -1,23 +1,23 @@
-MuralAvisos As screen:
+MuralAvisos2 As screen:
     BackgroundImage: =
     Fill: =RGBA(0, 0, 0, 0)
     ImagePosition: =ImagePosition.Tile
 
-    Footer_NotasFrequencia_1 As group:
+    Footer_NotasFrequencia_2 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =32
 
-        Rectangle3_55 As rectangle:
+        Rectangle3_57 As rectangle:
             Fill: =RGBA(122, 229, 130, 1)
             Height: =140
             Width: =640
             Y: =996
             ZIndex: =25
 
-        Facebook_16 As image:
+        Facebook_17 As image:
             Height: =65
             Image: ='icons8-facebook-90'
             TabIndex: =2
@@ -26,7 +26,7 @@ MuralAvisos As screen:
             Y: =1020
             ZIndex: =26
 
-        Instagram_16 As image:
+        Instagram_17 As image:
             Height: =65
             Image: ='icons8-instagram-128'
             TabIndex: =2
@@ -35,7 +35,7 @@ MuralAvisos As screen:
             Y: =1020
             ZIndex: =27
 
-        Linkedin_16 As image:
+        Linkedin_17 As image:
             Height: =65
             Image: ='icons8-linkedin-128'
             TabIndex: =2
@@ -44,7 +44,7 @@ MuralAvisos As screen:
             Y: =1020
             ZIndex: =28
 
-        Youtube_16 As image:
+        Youtube_17 As image:
             Height: =65
             Image: ='icons8-youtube-squared-128'
             TabIndex: =2
@@ -53,7 +53,7 @@ MuralAvisos As screen:
             Y: =1020
             ZIndex: =29
 
-        Twitter_16 As image:
+        Twitter_17 As image:
             Height: =65
             Image: ='icons8-twitter-squared-64'
             TabIndex: =2
@@ -62,7 +62,7 @@ MuralAvisos As screen:
             Y: =1020
             ZIndex: =30
 
-        "'Todos os direitos reservados_18' As label":
+        "'Todos os direitos reservados_19' As label":
             Align: =Align.Center
             Color: =RGBA(105, 105, 105, 1)
             Size: =14
@@ -72,28 +72,28 @@ MuralAvisos As screen:
             Y: =1092
             ZIndex: =31
 
-    Image3_1 As image:
+    Image3_6 As image:
         Height: =114
         Image: ='28'
         Width: =174
-        X: =2
-        Y: =147
+        X: =13
+        Y: =127
         ZIndex: =36
 
-    Header_NotasFrequencia_1 As group:
+    Header_NotasFrequencia_2 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =20
         ZIndex: =36
 
-        Rectangle3_54 As rectangle:
+        Rectangle3_56 As rectangle:
             Fill: =RGBA(122, 229, 130, 1)
             Height: =125
             Width: =640
             ZIndex: =33
 
-        Image12_27 As image:
+        Image12_28 As image:
             Height: =80
             Image: ='NATAL 2022_1'
             OnSelect: =Navigate(TelaAcesso)
@@ -102,7 +102,7 @@ MuralAvisos As screen:
             Y: =19
             ZIndex: =34
 
-        Icon2_21 As icon.Hamburger:
+        Icon2_22 As icon.Hamburger:
             Color: =RGBA(0, 165, 207, 1)
             FocusedBorderThickness: =10
             Height: =55
@@ -113,7 +113,7 @@ MuralAvisos As screen:
             Y: =31
             ZIndex: =35
 
-    Label1_18 As label:
+    Label1_20 As label:
         Color: =RGBA(0, 78, 100, 1)
         FontWeight: =FontWeight.Bold
         Height: =70
@@ -124,7 +124,7 @@ MuralAvisos As screen:
         Y: =182
         ZIndex: =37
 
-    Label8_4 As label:
+    Label8_6 As label:
         Color: =RGBA(51, 51, 51, 1)
         FontWeight: =FontWeight.Bold
         Height: =59
@@ -136,7 +136,7 @@ MuralAvisos As screen:
         Y: =276
         ZIndex: =38
 
-    Rectangle1_6 As rectangle:
+    Rectangle1_7 As rectangle:
         BorderColor: =RGBA(102, 182, 227, 1)
         BorderThickness: =2
         DisplayMode: =DisplayMode.View
@@ -148,7 +148,7 @@ MuralAvisos As screen:
         Y: =241
         ZIndex: =39
 
-    Label9_6 As label:
+    Label9_9 As label:
         Height: =118
         Size: =21
         Text: ="Prezados aluno fique atento às atividades que estão iniciando, e não perca o prazo..."
@@ -157,7 +157,7 @@ MuralAvisos As screen:
         Y: =335
         ZIndex: =40
 
-    Button4 As button:
+    Button4_3 As button:
         Height: =70
         OnSelect: =Navigate(Aviso1)
         Size: =24
@@ -167,7 +167,7 @@ MuralAvisos As screen:
         Y: =453
         ZIndex: =41
 
-    Rectangle1_8 As rectangle:
+    Rectangle1_9 As rectangle:
         BorderColor: =RGBA(102, 182, 227, 1)
         BorderThickness: =2
         DisplayMode: =DisplayMode.View
@@ -179,7 +179,7 @@ MuralAvisos As screen:
         Y: =573
         ZIndex: =43
 
-    Label9_7 As label:
+    Label9_8 As label:
         Height: =118
         Size: =21
         Text: ="Prezados aluno fique atento às atividades que estão iniciando, e não perca o prazo..."
@@ -188,7 +188,7 @@ MuralAvisos As screen:
         Y: =654
         ZIndex: =44
 
-    Label8_5 As label:
+    Label8_7 As label:
         Color: =RGBA(51, 51, 51, 1)
         FontWeight: =FontWeight.Bold
         Height: =59
@@ -200,7 +200,7 @@ MuralAvisos As screen:
         Y: =581
         ZIndex: =45
 
-    Button4_1 As button:
+    Button4_2 As button:
         Height: =70
         OnSelect: =Navigate(Aviso1)
         Size: =24
@@ -210,14 +210,14 @@ MuralAvisos As screen:
         Y: =782
         ZIndex: =46
 
-    Paginacao_1 As group:
+    Paginacao_2 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =53
 
-        Pag1_1 As label:
+        Pag1_2 As label:
             Align: =Align.Center
             Color: =RGBA(149, 149, 149, 1)
             Fill: =RGBA(219, 219, 219, 1)
@@ -230,7 +230,7 @@ MuralAvisos As screen:
             Y: =924
             ZIndex: =47
 
-        Pag2_1 As label:
+        Pag2_2 As label:
             Align: =Align.Center
             Color: =RGBA(51, 51, 51, 1)
             Fill: =RGBA(255, 255, 255, 1)
@@ -243,7 +243,7 @@ MuralAvisos As screen:
             Y: =926
             ZIndex: =48
 
-        Pag3_1 As label:
+        Pag3_2 As label:
             Align: =Align.Center
             Color: =RGBA(51, 51, 51, 1)
             Fill: =RGBA(255, 255, 255, 1)
@@ -256,7 +256,7 @@ MuralAvisos As screen:
             Y: =926
             ZIndex: =49
 
-        Pag4_1 As label:
+        Pag4_2 As label:
             Align: =Align.Center
             Color: =RGBA(51, 51, 51, 1)
             Fill: =RGBA(255, 255, 255, 1)
@@ -269,7 +269,7 @@ MuralAvisos As screen:
             Y: =926
             ZIndex: =50
 
-        "'Pag<_1' As label":
+        "'Pag<_2' As label":
             Align: =Align.Center
             Color: =RGBA(149, 149, 149, 1)
             Fill: =RGBA(255, 255, 255, 1)
@@ -282,7 +282,7 @@ MuralAvisos As screen:
             Y: =924
             ZIndex: =51
 
-        "'Pag>_1' As label":
+        "'Pag>_2' As label":
             Align: =Align.Center
             Color: =RGBA(51, 51, 51, 1)
             Fill: =RGBA(255, 255, 255, 1)

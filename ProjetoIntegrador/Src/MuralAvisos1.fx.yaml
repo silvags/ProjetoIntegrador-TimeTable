@@ -1,0 +1,298 @@
+MuralAvisos1 As screen:
+    BackgroundImage: =
+    Fill: =RGBA(0, 0, 0, 0)
+    ImagePosition: =ImagePosition.Tile
+
+    Footer_NotasFrequencia_1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =32
+
+        Rectangle3_55 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =140
+            Width: =640
+            Y: =996
+            ZIndex: =25
+
+        Facebook_16 As image:
+            Height: =65
+            Image: ='icons8-facebook-90'
+            TabIndex: =2
+            Width: =65
+            X: =84
+            Y: =1020
+            ZIndex: =26
+
+        Instagram_16 As image:
+            Height: =65
+            Image: ='icons8-instagram-128'
+            TabIndex: =2
+            Width: =65
+            X: =187
+            Y: =1020
+            ZIndex: =27
+
+        Linkedin_16 As image:
+            Height: =65
+            Image: ='icons8-linkedin-128'
+            TabIndex: =2
+            Width: =65
+            X: =289
+            Y: =1020
+            ZIndex: =28
+
+        Youtube_16 As image:
+            Height: =65
+            Image: ='icons8-youtube-squared-128'
+            TabIndex: =2
+            Width: =65
+            X: =390
+            Y: =1020
+            ZIndex: =29
+
+        Twitter_16 As image:
+            Height: =65
+            Image: ='icons8-twitter-squared-64'
+            TabIndex: =2
+            Width: =65
+            X: =490
+            Y: =1020
+            ZIndex: =30
+
+        "'Todos os direitos reservados_18' As label":
+            Align: =Align.Center
+            Color: =RGBA(105, 105, 105, 1)
+            Size: =14
+            Text: ="Todos os direitos reservados - 2023"
+            Width: =377
+            X: =144
+            Y: =1092
+            ZIndex: =31
+
+    Image3_1 As image:
+        Height: =114
+        Image: ='28'
+        Width: =174
+        X: =13
+        Y: =127
+        ZIndex: =36
+
+    Header_NotasFrequencia_1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =20
+        ZIndex: =36
+
+        Rectangle3_54 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =125
+            Width: =640
+            ZIndex: =33
+
+        Image12_27 As image:
+            Height: =80
+            Image: ='NATAL 2022_1'
+            OnSelect: =Navigate(TelaAcesso)
+            Width: =102
+            X: =521
+            Y: =19
+            ZIndex: =34
+
+        Icon2_21 As icon.Hamburger:
+            Color: =RGBA(0, 165, 207, 1)
+            FocusedBorderThickness: =10
+            Height: =55
+            Icon: =Icon.Hamburger
+            OnSelect: =Navigate(TelaMenu)
+            Width: =55
+            X: =39
+            Y: =31
+            ZIndex: =35
+
+    Label1_18 As label:
+        Color: =RGBA(0, 78, 100, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =70
+        Size: =25
+        Text: ="MURAL DE AVISOS"
+        Width: =450
+        X: =173
+        Y: =182
+        ZIndex: =37
+
+    Label8_4 As label:
+        Color: =RGBA(51, 51, 51, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =59
+        OnSelect: =
+        Size: =23
+        Text: ="Divulgado boletim semestral"
+        Width: =501
+        X: =82
+        Y: =276
+        ZIndex: =38
+
+    Rectangle1_6 As rectangle:
+        BorderColor: =RGBA(102, 182, 227, 1)
+        BorderThickness: =2
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =302
+        OnSelect: =
+        Width: =540
+        X: =53
+        Y: =241
+        ZIndex: =39
+
+    Label9_6 As label:
+        Height: =118
+        Size: =21
+        Text: ="Prezados aluno fique atento às atividades que estão iniciando, e não perca o prazo..."
+        Width: =501
+        X: =71
+        Y: =335
+        ZIndex: =40
+
+    Button4 As button:
+        Height: =70
+        OnSelect: =Navigate(Aviso1)
+        Size: =24
+        Text: ="LEIA MAIS"
+        Width: =280
+        X: =158
+        Y: =453
+        ZIndex: =41
+
+    Rectangle1_8 As rectangle:
+        BorderColor: =RGBA(102, 182, 227, 1)
+        BorderThickness: =2
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =302
+        OnSelect: =
+        Width: =540
+        X: =43
+        Y: =573
+        ZIndex: =43
+
+    Label9_7 As label:
+        Height: =118
+        Size: =21
+        Text: ="Prezados aluno fique atento às atividades que estão iniciando, e não perca o prazo..."
+        Width: =501
+        X: =62
+        Y: =654
+        ZIndex: =44
+
+    Label8_5 As label:
+        Color: =RGBA(51, 51, 51, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =59
+        OnSelect: =
+        Size: =23
+        Text: ="Prazo das Atividades"
+        Width: =501
+        X: =69
+        Y: =581
+        ZIndex: =45
+
+    Button4_1 As button:
+        Height: =70
+        OnSelect: =Navigate(Aviso1)
+        Size: =24
+        Text: ="LEIA MAIS"
+        Width: =280
+        X: =152
+        Y: =782
+        ZIndex: =46
+
+    Paginacao_1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =53
+
+        Pag1_1 As label:
+            Align: =Align.Center
+            Color: =RGBA(149, 149, 149, 1)
+            Fill: =RGBA(219, 219, 219, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =52
+            Size: =24
+            Text: ="1"
+            Width: =40
+            X: =196
+            Y: =924
+            ZIndex: =47
+
+        Pag2_1 As label:
+            Align: =Align.Center
+            Color: =RGBA(51, 51, 51, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =52
+            OnSelect: =Navigate(MuralAvisos2)
+            Size: =24
+            Text: ="2"
+            Width: =40
+            X: =278
+            Y: =926
+            ZIndex: =48
+
+        Pag3_1 As label:
+            Align: =Align.Center
+            Color: =RGBA(51, 51, 51, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =52
+            Size: =24
+            Text: ="3"
+            Width: =40
+            X: =348
+            Y: =926
+            ZIndex: =49
+
+        Pag4_1 As label:
+            Align: =Align.Center
+            Color: =RGBA(51, 51, 51, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =52
+            Size: =24
+            Text: ="4"
+            Width: =40
+            X: =418
+            Y: =926
+            ZIndex: =50
+
+        "'Pag<_1' As label":
+            Align: =Align.Center
+            Color: =RGBA(149, 149, 149, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =52
+            Size: =24
+            Text: ="<"
+            Width: =40
+            X: =104
+            Y: =924
+            ZIndex: =51
+
+        "'Pag>_1' As label":
+            Align: =Align.Center
+            Color: =RGBA(51, 51, 51, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =52
+            Size: =24
+            Text: =">"
+            Width: =40
+            X: =503
+            Y: =924
+            ZIndex: =52
+
