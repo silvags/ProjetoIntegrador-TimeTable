@@ -1,4 +1,4 @@
-CursoDisciplinas As screen:
+PaginaInativa As screen:
     BackgroundImage: =
     Fill: =RGBA(0, 0, 0, 0)
     ImagePosition: =ImagePosition.Tile

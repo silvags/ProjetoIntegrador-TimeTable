@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Image12_21.AccessibleLabel"
+                  "fullyQualifiedName": "PaginaInativa.Image12_21.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Image12_21.AccessibleLabel",
+                  "fullyQualifiedName": "PaginaInativa.Image12_21.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Image12_21"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Image12_21"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Image12_21.TabIndex"
+                  "fullyQualifiedName": "PaginaInativa.Image12_21.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Image12_21.TabIndex",
+                  "fullyQualifiedName": "PaginaInativa.Image12_21.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Image12_21"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Image12_21"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Icon2_15.AccessibleLabel"
+                  "fullyQualifiedName": "PaginaInativa.Icon2_15.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Icon2_15.AccessibleLabel",
+                  "fullyQualifiedName": "PaginaInativa.Icon2_15.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Icon2_15"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Icon2_15"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Icon2_15.TabIndex"
+                  "fullyQualifiedName": "PaginaInativa.Icon2_15.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Icon2_15.TabIndex",
+                  "fullyQualifiedName": "PaginaInativa.Icon2_15.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Icon2_15"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Icon2_15"
               }
             }
           ],
@@ -134,19 +134,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.lstCursos.AccessibleLabel"
+                  "fullyQualifiedName": "PaginaInativa.lstCursos.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.lstCursos.AccessibleLabel",
+                  "fullyQualifiedName": "PaginaInativa.lstCursos.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.lstCursos"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.lstCursos"
               }
             }
           ],
@@ -164,19 +164,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.lstDisciplinas.AccessibleLabel"
+                  "fullyQualifiedName": "PaginaInativa.lstDisciplinas.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.lstDisciplinas.AccessibleLabel",
+                  "fullyQualifiedName": "PaginaInativa.lstDisciplinas.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.lstDisciplinas"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.lstDisciplinas"
               }
             }
           ],
@@ -194,19 +194,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Facebook_10.AccessibleLabel"
+                  "fullyQualifiedName": "PaginaInativa.Facebook_10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Facebook_10.AccessibleLabel",
+                  "fullyQualifiedName": "PaginaInativa.Facebook_10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Facebook_10"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Facebook_10"
               }
             }
           ],
@@ -224,19 +224,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Facebook_10.TabIndex"
+                  "fullyQualifiedName": "PaginaInativa.Facebook_10.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Facebook_10.TabIndex",
+                  "fullyQualifiedName": "PaginaInativa.Facebook_10.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Facebook_10"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Facebook_10"
               }
             }
           ],
@@ -254,19 +254,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Instagram_10.AccessibleLabel"
+                  "fullyQualifiedName": "PaginaInativa.Instagram_10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Instagram_10.AccessibleLabel",
+                  "fullyQualifiedName": "PaginaInativa.Instagram_10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Instagram_10"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Instagram_10"
               }
             }
           ],
@@ -284,19 +284,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Instagram_10.TabIndex"
+                  "fullyQualifiedName": "PaginaInativa.Instagram_10.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Instagram_10.TabIndex",
+                  "fullyQualifiedName": "PaginaInativa.Instagram_10.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Instagram_10"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Instagram_10"
               }
             }
           ],
@@ -314,19 +314,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Linkedin_10.AccessibleLabel"
+                  "fullyQualifiedName": "PaginaInativa.Linkedin_10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Linkedin_10.AccessibleLabel",
+                  "fullyQualifiedName": "PaginaInativa.Linkedin_10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Linkedin_10"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Linkedin_10"
               }
             }
           ],
@@ -344,19 +344,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Linkedin_10.TabIndex"
+                  "fullyQualifiedName": "PaginaInativa.Linkedin_10.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Linkedin_10.TabIndex",
+                  "fullyQualifiedName": "PaginaInativa.Linkedin_10.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Linkedin_10"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Linkedin_10"
               }
             }
           ],
@@ -374,19 +374,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Youtube_10.AccessibleLabel"
+                  "fullyQualifiedName": "PaginaInativa.Youtube_10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Youtube_10.AccessibleLabel",
+                  "fullyQualifiedName": "PaginaInativa.Youtube_10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Youtube_10"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Youtube_10"
               }
             }
           ],
@@ -404,19 +404,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Youtube_10.TabIndex"
+                  "fullyQualifiedName": "PaginaInativa.Youtube_10.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Youtube_10.TabIndex",
+                  "fullyQualifiedName": "PaginaInativa.Youtube_10.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Youtube_10"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Youtube_10"
               }
             }
           ],
@@ -434,19 +434,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Twitter_10.AccessibleLabel"
+                  "fullyQualifiedName": "PaginaInativa.Twitter_10.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Twitter_10.AccessibleLabel",
+                  "fullyQualifiedName": "PaginaInativa.Twitter_10.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Twitter_10"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Twitter_10"
               }
             }
           ],
@@ -464,19 +464,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "CursoDisciplinas.Twitter_10.TabIndex"
+                  "fullyQualifiedName": "PaginaInativa.Twitter_10.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "CursoDisciplinas.Twitter_10.TabIndex",
+                  "fullyQualifiedName": "PaginaInativa.Twitter_10.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "CursoDisciplinas",
-                "type": "CursoDisciplinas.Twitter_10"
+                "module": "PaginaInativa",
+                "type": "PaginaInativa.Twitter_10"
               }
             }
           ],
