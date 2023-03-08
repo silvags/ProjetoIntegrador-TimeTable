@@ -158,20 +158,12 @@ TelaMenu As screen:
         Y: =40
         ZIndex: =60
 
-        Image19 As image:
-            Height: =70
-            Image: ='25'
-            Width: =70
-            X: =49
-            Y: =504
-            ZIndex: =8
-
         Image20 As image:
             Height: =70
             Image: ='7'
             Width: =70
             X: =49
-            Y: =585
+            Y: =512
             ZIndex: =9
 
         Image21 As image:
@@ -179,7 +171,7 @@ TelaMenu As screen:
             Image: ='29'
             Width: =70
             X: =49
-            Y: =670
+            Y: =614
             ZIndex: =10
 
         Image22 As image:
@@ -187,7 +179,7 @@ TelaMenu As screen:
             Image: ='26'
             Width: =70
             X: =49
-            Y: =760
+            Y: =718
             ZIndex: =11
 
         Image23 As image:
@@ -195,7 +187,7 @@ TelaMenu As screen:
             Image: ='32'
             Width: =70
             X: =49
-            Y: =845
+            Y: =808
             ZIndex: =12
 
         Image24 As image:
@@ -203,22 +195,8 @@ TelaMenu As screen:
             Image: ='28'
             Width: =70
             X: =49
-            Y: =925
+            Y: =895
             ZIndex: =13
-
-        Button3_1 As button:
-            Align: =Align.Left
-            BorderThickness: =0
-            Color: =RGBA(0, 78, 100, 1)
-            Fill: =RGBA(122, 229, 130, 1)
-            Height: =43
-            OnSelect: =Navigate(CursoDisciplinas)
-            Size: =20
-            Text: ="Cursos e Disciplinas"
-            Width: =280
-            X: =140
-            Y: =520
-            ZIndex: =14
 
         Button3_2 As button:
             Align: =Align.Left
@@ -230,8 +208,8 @@ TelaMenu As screen:
             Size: =20
             Text: ="Turma"
             Width: =150
-            X: =140
-            Y: =600
+            X: =152
+            Y: =539
             ZIndex: =15
 
         Button3_3 As button:
@@ -245,7 +223,7 @@ TelaMenu As screen:
             Text: ="Notas e Frequência"
             Width: =280
             X: =140
-            Y: =685
+            Y: =631
             ZIndex: =16
 
         Button3_4 As button:
@@ -259,7 +237,7 @@ TelaMenu As screen:
             Text: ="Atividades"
             Width: =150
             X: =140
-            Y: =770
+            Y: =737
             ZIndex: =17
 
         Button3_5 As button:
@@ -273,7 +251,7 @@ TelaMenu As screen:
             Text: ="Calendário"
             Width: =264
             X: =140
-            Y: =858
+            Y: =834
             ZIndex: =18
 
         Button3_6 As button:
@@ -287,7 +265,7 @@ TelaMenu As screen:
             Text: ="Mural de Avisos"
             Width: =250
             X: =140
-            Y: =940
+            Y: =908
             ZIndex: =19
 
         Label10_1 As label:

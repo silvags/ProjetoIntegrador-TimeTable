@@ -29,11 +29,11 @@
   },
   "50471254-8922-4980-9b2b-f48fb005d5a9": {
     "connectionParameters": {
-      "sku": "Enterprise",
+      "logicAppHostType": "ARM",
       "workFlowCallbackUri": "https://prod-19.brazilsouth.logic.azure.com:443/workflows/0799e023ea6143cc8ca7381182543f32/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=-3Y6t2qtuo4Cy5QS7IBXNNbhXz1awbCXB7RcD5MNxTQ",
-      "workflowEndpoint": "/subscriptions/ce4eb7c9-9c8b-4133-9141-bac869f4b0a7/resourceGroups/33E09B16646D47C4AF9A3F421435625F-465FA5D430F44390BD6EBEEC3393DD8C/providers/Microsoft.Logic/workflows/a51f0f04-0a8c-4391-acf8-8880ace98876",
+      "workflowEndpoint": "/subscriptions/ce4eb7c9-9c8b-4133-9141-bac869f4b0a7/resourceGroups/33e09b16646d47c4af9a3f421435625f-465fa5d430f44390bd6ebeec3393dd8c/providers/Microsoft.Logic/workflows/a51f0f04-0a8c-4391-acf8-8880ace98876",
       "workflowName": "a51f0f04-0a8c-4391-acf8-8880ace98876",
-      "workflowPath": "/subscriptions/ce4eb7c9-9c8b-4133-9141-bac869f4b0a7/resourceGroups/33E09B16646D47C4AF9A3F421435625F-465FA5D430F44390BD6EBEEC3393DD8C/providers/Microsoft.Logic/workflows/a51f0f04-0a8c-4391-acf8-8880ace98876"
+      "workflowPath": "/subscriptions/ce4eb7c9-9c8b-4133-9141-bac869f4b0a7/resourceGroups/33e09b16646d47c4af9a3f421435625f-465fa5d430f44390bd6ebeec3393dd8c/providers/Microsoft.Logic/workflows/a51f0f04-0a8c-4391-acf8-8880ace98876"
     },
     "connectionRef": {
       "apiTier": "Standard",
