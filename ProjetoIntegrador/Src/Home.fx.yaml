@@ -154,7 +154,7 @@ Home As screen:
             Fill: |
                 =RGBA(42, 157, 140, 1)
             Height: =63
-            OnSelect: =Navigate(Avisos)
+            OnSelect: =Navigate(Aviso1)
             Size: =24
             Text: ="Ler mais"
             Width: =244

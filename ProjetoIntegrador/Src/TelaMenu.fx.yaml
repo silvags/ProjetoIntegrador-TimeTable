@@ -260,7 +260,7 @@ TelaMenu As screen:
             Color: =RGBA(0, 78, 100, 1)
             Fill: =RGBA(122, 229, 130, 1)
             Height: =43
-            OnSelect: =Navigate(Avisos)
+            OnSelect: =Navigate(Aviso1)
             Size: =20
             Text: ="Mural de Avisos"
             Width: =250
