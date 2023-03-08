@@ -1,9 +1,9 @@
-Atividade1 As screen:
+Atividade2 As screen:
     BackgroundImage: =
     Fill: =RGBA(0, 0, 0, 0)
     ImagePosition: =ImagePosition.Tile
 
-    Button1_12 As button:
+    Button1_20 As button:
         BorderColor: =RGBA(42,157,140,1000)
         BorderThickness: =1
         Fill: =RGBA(42, 157, 140, 1)
@@ -16,16 +16,14 @@ Atividade1 As screen:
         Y: =900
         ZIndex: =19
 
-    Label22 As label:
+    Label22_1 As label:
         Height: =441
         Size: =16
         Text: |-
-            ="Você deve pesquisar sobre o tema e desenvolver e responder as seguintes perguntas: 
+            ="Tema do Projeto: Metodologia Ágil 
             
-            a) O que é uma metodologia ágil? 
-            b) Qual a finalidade do framework Scrum? 
-            c) Como funciona o framework Scrum? É importante que você apresente, dentro do funcionamento do Scrum, os conceitos de product backlog, sprint, sprint backlog, daily scrum, sprint review meeting)
-            d) Quem são os participantes desse processo de desenvolvimento? 
+            
+            
             
             Não é necessário desenvolver o documento no formato pergunta resposta. Os itens acima servem de referência sobre o que deve ser tratado no documento."
         Width: =551
@@ -33,31 +31,31 @@ Atividade1 As screen:
         Y: =401
         ZIndex: =20
 
-    Label23 As label:
+    Label23_1 As label:
         Color: =RGBA(51, 51, 51, 1)
         FontWeight: =FontWeight.Semibold
         Height: =39
         Size: =17
-        Text: ="Prof. Marcelo"
+        Text: ="Profa. Bruna"
         Width: =199
         X: =39
         Y: =333
         ZIndex: =21
 
-    Label24 As label:
+    Label24_1 As label:
         Align: =Align.Center
         Color: =RGBA(51, 51, 51, 1)
         Fill: =RGBA(237, 237, 237, 1)
         FontWeight: =FontWeight.Bold
         Height: =57
         Size: =21
-        Text: ="Questionário Avaliativo 1"
+        Text: ="Projeto Integrador 1"
         Width: =380
         X: =39
         Y: =266
         ZIndex: =22
 
-    Label25 As label:
+    Label25_1 As label:
         Height: =59
         Size: =15
         Text: |-
@@ -67,21 +65,21 @@ Atividade1 As screen:
         Y: =197
         ZIndex: =23
 
-    Footer_Atividade As group:
+    Footer_Atividade_1 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =32
 
-        Rectangle3_40 As rectangle:
+        Rectangle3_63 As rectangle:
             Fill: =RGBA(122, 229, 130, 1)
             Height: =140
             Width: =640
             Y: =996
             ZIndex: =25
 
-        Facebook_9 As image:
+        Facebook_20 As image:
             Height: =65
             Image: ='icons8-facebook-90'
             TabIndex: =2
@@ -90,7 +88,7 @@ Atividade1 As screen:
             Y: =1020
             ZIndex: =26
 
-        Instagram_9 As image:
+        Instagram_20 As image:
             Height: =65
             Image: ='icons8-instagram-128'
             TabIndex: =2
@@ -99,7 +97,7 @@ Atividade1 As screen:
             Y: =1020
             ZIndex: =27
 
-        Linkedin_9 As image:
+        Linkedin_20 As image:
             Height: =65
             Image: ='icons8-linkedin-128'
             TabIndex: =2
@@ -108,7 +106,7 @@ Atividade1 As screen:
             Y: =1020
             ZIndex: =28
 
-        Youtube_9 As image:
+        Youtube_20 As image:
             Height: =65
             Image: ='icons8-youtube-squared-128'
             TabIndex: =2
@@ -117,7 +115,7 @@ Atividade1 As screen:
             Y: =1020
             ZIndex: =29
 
-        Twitter_9 As image:
+        Twitter_20 As image:
             Height: =65
             Image: ='icons8-twitter-squared-64'
             TabIndex: =2
@@ -126,7 +124,7 @@ Atividade1 As screen:
             Y: =1020
             ZIndex: =30
 
-        "'Todos os direitos reservados_11' As label":
+        "'Todos os direitos reservados_22' As label":
             Align: =Align.Center
             Color: =RGBA(105, 105, 105, 1)
             Size: =14
@@ -136,7 +134,7 @@ Atividade1 As screen:
             Y: =1092
             ZIndex: =31
 
-    Label9_5 As label:
+    Label9_11 As label:
         Align: =Align.Center
         Color: =RGBA(255, 255, 255, 1)
         Fill: =RGBA(152, 208, 70, 1)
@@ -148,14 +146,14 @@ Atividade1 As screen:
         Y: =216
         ZIndex: =38
 
-    Titulo_Atividade As group:
+    Titulo_Atividade_1 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =38
 
-        Image25_4 As image:
+        Image25_9 As image:
             Height: =47
             Image: ='26'
             Width: =69
@@ -163,7 +161,7 @@ Atividade1 As screen:
             Y: =135
             ZIndex: =18
 
-        Label1_7 As label:
+        Label1_12 As label:
             Color: =RGBA(0, 78, 100, 1)
             FontWeight: =FontWeight.Bold
             Height: =60
@@ -174,20 +172,20 @@ Atividade1 As screen:
             Y: =129
             ZIndex: =33
 
-    Header_Atividade As group:
+    Header_Atividade_1 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =20
         ZIndex: =38
 
-        Rectangle3_41 As rectangle:
+        Rectangle3_62 As rectangle:
             Fill: =RGBA(122, 229, 130, 1)
             Height: =125
             Width: =640
             ZIndex: =35
 
-        Image12_20 As image:
+        Image12_31 As image:
             Height: =80
             Image: ='NATAL 2022_1'
             OnSelect: =Navigate(TelaAcesso)
@@ -196,7 +194,7 @@ Atividade1 As screen:
             Y: =19
             ZIndex: =36
 
-        Icon2_14 As icon.Hamburger:
+        Icon2_25 As icon.Hamburger:
             Color: =RGBA(0, 165, 207, 1)
             FocusedBorderThickness: =10
             Height: =55

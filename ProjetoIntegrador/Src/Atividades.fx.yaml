@@ -111,6 +111,17 @@ Atividades As screen:
             Y: =37
             ZIndex: =27
 
+    Label1_11 As label:
+        Color: =RGBA(0, 78, 100, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =60
+        Size: =26
+        Text: ="ATIVIDADES"
+        Width: =230
+        X: =193
+        Y: =145
+        ZIndex: =38
+
     UltimasAtividades As group:
         Height: =5
         Width: =5
@@ -136,7 +147,7 @@ Atividades As screen:
             FontWeight: =FontWeight.Bold
             Height: =63
             Size: =25
-            Text: ="Sistemas Operacionais"
+            Text: ="Projeto Integrador 1"
             Width: =450
             X: =77
             Y: =720
@@ -151,19 +162,6 @@ Atividades As screen:
             X: =77
             Y: =796
             ZIndex: =33
-
-        Button3_13 As button:
-            DisplayMode: =DisplayMode.View
-            Fill: |
-                =RGBA(42, 157, 140, 1)
-            Height: =63
-            OnSelect: =Navigate(Atividade1)
-            Size: =24
-            Text: ="Ver atividade"
-            Width: =275
-            X: =77
-            Y: =878
-            ZIndex: =34
 
         Label1_4 As label:
             Color: =RGBA(0, 78, 100, 1)
@@ -195,4 +193,80 @@ Atividades As screen:
             X: =81
             Y: =667
             ZIndex: =37
+
+    Label8_3 As label:
+        Align: =Align.Center
+        Color: =RGBA(51, 51, 51, 1)
+        Fill: =RGBA(237, 237, 237, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =63
+        Size: =25
+        Text: ="Questionário Avaliativo 1"
+        Width: =450
+        X: =84
+        Y: =292
+        ZIndex: =40
+
+    Label9_10 As label:
+        Height: =59
+        Size: =21
+        Text: |-
+            ="Prazo de entrega: 27/03/2023"
+        Width: =446
+        X: =84
+        Y: =366
+        ZIndex: =41
+
+    Rectangle1_10 As rectangle:
+        BorderColor: =RGBA(102, 182, 227, 1)
+        BorderThickness: =2
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =319
+        Width: =507
+        X: =66
+        Y: =193
+        ZIndex: =42
+
+    Label9_4 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(152, 208, 70, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =25
+        Text: ="EM ANDAMENTO"
+        Width: =175
+        X: =94
+        Y: =223
+        ZIndex: =43
+
+    Icon2_3 As icon.ChevronRight:
+        Height: =40
+        Icon: =Icon.ChevronRight
+        Width: =40
+        X: =583
+        Y: =340
+        ZIndex: =44
+
+    Button6 As button:
+        Fill: =RGBA(42, 157, 140, 1)
+        Height: =50
+        OnSelect: =Navigate(Atividade1)
+        Size: =24
+        Text: ="Ver Atividade"
+        Width: =280
+        X: =149
+        Y: =442
+        ZIndex: =45
+
+    Button6_1 As button:
+        Fill: =RGBA(42, 157, 140, 1)
+        Height: =50
+        OnSelect: =Navigate(Atividade2)
+        Size: =24
+        Text: ="Ver Atividade"
+        Width: =280
+        X: =160
+        Y: =894
+        ZIndex: =46
 
