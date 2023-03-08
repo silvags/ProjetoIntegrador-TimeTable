@@ -177,6 +177,7 @@ Atividades As screen:
         Icon2_1 As icon.ChevronRight:
             Height: =40
             Icon: =Icon.ChevronRight
+            OnSelect: =Navigate(Atividade2)
             Width: =40
             X: =574
             Y: =779
@@ -243,6 +244,7 @@ Atividades As screen:
     Icon2_3 As icon.ChevronRight:
         Height: =40
         Icon: =Icon.ChevronRight
+        OnSelect: =Navigate(Atividade1)
         Width: =40
         X: =583
         Y: =340
