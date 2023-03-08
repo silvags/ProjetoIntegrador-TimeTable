@@ -494,19 +494,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Image12_22.AccessibleLabel"
+                  "fullyQualifiedName": "TurmaInativa.Image12_22.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Image12_22.AccessibleLabel",
+                  "fullyQualifiedName": "TurmaInativa.Image12_22.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Turma",
-                "type": "Turma.Image12_22"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Image12_22"
               }
             }
           ],
@@ -524,19 +524,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Image12_22.TabIndex"
+                  "fullyQualifiedName": "TurmaInativa.Image12_22.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Image12_22.TabIndex",
+                  "fullyQualifiedName": "TurmaInativa.Image12_22.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Turma",
-                "type": "Turma.Image12_22"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Image12_22"
               }
             }
           ],
@@ -554,19 +554,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Icon2_16.AccessibleLabel"
+                  "fullyQualifiedName": "TurmaInativa.Icon2_16.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Icon2_16.AccessibleLabel",
+                  "fullyQualifiedName": "TurmaInativa.Icon2_16.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Turma",
-                "type": "Turma.Icon2_16"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Icon2_16"
               }
             }
           ],
@@ -584,19 +584,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Icon2_16.TabIndex"
+                  "fullyQualifiedName": "TurmaInativa.Icon2_16.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Icon2_16.TabIndex",
+                  "fullyQualifiedName": "TurmaInativa.Icon2_16.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Turma",
-                "type": "Turma.Icon2_16"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Icon2_16"
               }
             }
           ],
@@ -614,19 +614,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.lstCursos_1.AccessibleLabel"
+                  "fullyQualifiedName": "TurmaInativa.lstCursos_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.lstCursos_1.AccessibleLabel",
+                  "fullyQualifiedName": "TurmaInativa.lstCursos_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Turma",
-                "type": "Turma.lstCursos_1"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.lstCursos_1"
               }
             }
           ],
@@ -644,19 +644,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Facebook_11.AccessibleLabel"
+                  "fullyQualifiedName": "TurmaInativa.Facebook_11.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Facebook_11.AccessibleLabel",
+                  "fullyQualifiedName": "TurmaInativa.Facebook_11.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Turma",
-                "type": "Turma.Facebook_11"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Facebook_11"
               }
             }
           ],
@@ -674,19 +674,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Facebook_11.TabIndex"
+                  "fullyQualifiedName": "TurmaInativa.Facebook_11.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Facebook_11.TabIndex",
+                  "fullyQualifiedName": "TurmaInativa.Facebook_11.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Turma",
-                "type": "Turma.Facebook_11"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Facebook_11"
               }
             }
           ],
@@ -704,19 +704,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Instagram_11.AccessibleLabel"
+                  "fullyQualifiedName": "TurmaInativa.Instagram_11.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Instagram_11.AccessibleLabel",
+                  "fullyQualifiedName": "TurmaInativa.Instagram_11.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Turma",
-                "type": "Turma.Instagram_11"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Instagram_11"
               }
             }
           ],
@@ -734,19 +734,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Instagram_11.TabIndex"
+                  "fullyQualifiedName": "TurmaInativa.Instagram_11.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Instagram_11.TabIndex",
+                  "fullyQualifiedName": "TurmaInativa.Instagram_11.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Turma",
-                "type": "Turma.Instagram_11"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Instagram_11"
               }
             }
           ],
@@ -764,19 +764,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Linkedin_11.AccessibleLabel"
+                  "fullyQualifiedName": "TurmaInativa.Linkedin_11.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Linkedin_11.AccessibleLabel",
+                  "fullyQualifiedName": "TurmaInativa.Linkedin_11.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Turma",
-                "type": "Turma.Linkedin_11"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Linkedin_11"
               }
             }
           ],
@@ -794,19 +794,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Linkedin_11.TabIndex"
+                  "fullyQualifiedName": "TurmaInativa.Linkedin_11.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Linkedin_11.TabIndex",
+                  "fullyQualifiedName": "TurmaInativa.Linkedin_11.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Turma",
-                "type": "Turma.Linkedin_11"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Linkedin_11"
               }
             }
           ],
@@ -824,19 +824,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Youtube_11.AccessibleLabel"
+                  "fullyQualifiedName": "TurmaInativa.Youtube_11.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Youtube_11.AccessibleLabel",
+                  "fullyQualifiedName": "TurmaInativa.Youtube_11.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Turma",
-                "type": "Turma.Youtube_11"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Youtube_11"
               }
             }
           ],
@@ -854,19 +854,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Youtube_11.TabIndex"
+                  "fullyQualifiedName": "TurmaInativa.Youtube_11.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Youtube_11.TabIndex",
+                  "fullyQualifiedName": "TurmaInativa.Youtube_11.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Turma",
-                "type": "Turma.Youtube_11"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Youtube_11"
               }
             }
           ],
@@ -884,19 +884,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Twitter_11.AccessibleLabel"
+                  "fullyQualifiedName": "TurmaInativa.Twitter_11.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Twitter_11.AccessibleLabel",
+                  "fullyQualifiedName": "TurmaInativa.Twitter_11.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "Turma",
-                "type": "Turma.Twitter_11"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Twitter_11"
               }
             }
           ],
@@ -914,19 +914,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "Turma.Twitter_11.TabIndex"
+                  "fullyQualifiedName": "TurmaInativa.Twitter_11.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "Turma.Twitter_11.TabIndex",
+                  "fullyQualifiedName": "TurmaInativa.Twitter_11.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "Turma",
-                "type": "Turma.Twitter_11"
+                "module": "TurmaInativa",
+                "type": "TurmaInativa.Twitter_11"
               }
             }
           ],

@@ -1,15 +1,15 @@
-Turma As screen:
+TurmaInativa As screen:
     BackgroundImage: =
     Fill: =RGBA(0, 0, 0, 0)
     ImagePosition: =ImagePosition.Tile
 
     Label1_16 As label:
-        Color: =RGBA(0, 78, 100, 1)
+        Color: =RGBA(168, 0, 0, 1)
         FontWeight: =FontWeight.Bold
-        Height: =70
+        Height: =100
         Size: =25
-        Text: ="TURMA"
-        Width: =250
+        Text: ="PAGINA INATIVA"
+        Width: =300
         X: =270
         Y: =207
         ZIndex: =17

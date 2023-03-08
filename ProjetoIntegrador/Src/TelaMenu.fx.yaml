@@ -158,20 +158,12 @@ TelaMenu As screen:
         Y: =40
         ZIndex: =60
 
-        Image20 As image:
-            Height: =70
-            Image: ='7'
-            Width: =70
-            X: =49
-            Y: =512
-            ZIndex: =9
-
         Image21 As image:
             Height: =70
             Image: ='29'
             Width: =70
             X: =49
-            Y: =614
+            Y: =527
             ZIndex: =10
 
         Image22 As image:
@@ -198,20 +190,6 @@ TelaMenu As screen:
             Y: =895
             ZIndex: =13
 
-        Button3_2 As button:
-            Align: =Align.Left
-            BorderThickness: =0
-            Color: =RGBA(0, 78, 100, 1)
-            Fill: =RGBA(122, 229, 130, 1)
-            Height: =43
-            OnSelect: =Navigate(Turma)
-            Size: =20
-            Text: ="Turma"
-            Width: =150
-            X: =152
-            Y: =539
-            ZIndex: =15
-
         Button3_3 As button:
             Align: =Align.Left
             BorderThickness: =0
@@ -222,8 +200,8 @@ TelaMenu As screen:
             Size: =20
             Text: ="Notas e Frequência"
             Width: =280
-            X: =140
-            Y: =631
+            X: =132
+            Y: =545
             ZIndex: =16
 
         Button3_4 As button:
