@@ -232,7 +232,7 @@ TelaMenu As screen:
             Color: =RGBA(0, 78, 100, 1)
             Fill: =RGBA(122, 229, 130, 1)
             Height: =48
-            OnSelect: =Navigate(Atividades)
+            OnSelect: =Navigate(Atividade1)
             Size: =20
             Text: ="Atividades"
             Width: =150

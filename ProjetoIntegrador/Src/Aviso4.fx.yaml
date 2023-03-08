@@ -44,13 +44,7 @@ Aviso4 As screen:
         Color: =RGBA(51, 51, 51, 1)
         Height: =420
         Size: =18
-        Text: |-
-            ="Prezados alunos(as),
-            
-            Informamos que foi divulgado o boletim semestral. Lembre-se que, para acessar seu boletim, basta clicar em ‘Notas e frequências’ no menu lateral e escolher o período desejado.Para os alunos(as) que foram reprovados em alguma matéria, informamos que a atividade de recuperação será disponibilizada na próxima semana.
-            
-            Atenciosamente,
-            Coordenação."
+        Text: ="Prezados Alunos"
         Width: =572
         X: =39
         Y: =378

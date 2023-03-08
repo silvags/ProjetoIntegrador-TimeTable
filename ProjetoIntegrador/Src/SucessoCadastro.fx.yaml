@@ -12,7 +12,7 @@ SucessoCadastro As screen:
         Text: ="SEJA BEM VINDO(A)!"
         Width: =560
         X: =40
-        Y: =203
+        Y: =174
         ZIndex: =14
 
     Button2 As button:
@@ -25,7 +25,7 @@ SucessoCadastro As screen:
         Text: =User().FullName
         Width: =436
         X: =103
-        Y: =306
+        Y: =271
         ZIndex: =17
 
     Button1_15 As button:
@@ -113,7 +113,7 @@ SucessoCadastro As screen:
         Size: =21
         Width: =575
         X: =48
-        Y: =525
+        Y: =481
         ZIndex: =29
 
     Footer_SucessoCadastro As group:
@@ -200,7 +200,7 @@ SucessoCadastro As screen:
         Size: =21
         Width: =575
         X: =48
-        Y: =736
+        Y: =690
         ZIndex: =30
 
     Label1_23 As label:
@@ -210,16 +210,16 @@ SucessoCadastro As screen:
         Size: =25
         Text: ="Selecione o Curso"
         Width: =350
-        X: =205
-        Y: =425
+        X: =178
+        Y: =411
         ZIndex: =31
 
     Image25_6 As image:
         Height: =65
         Image: ='20'
         Width: =75
-        X: =103
-        Y: =427
+        X: =84
+        Y: =411
         ZIndex: =32
 
     Image25_8 As image:
@@ -227,7 +227,7 @@ SucessoCadastro As screen:
         Image: ='25'
         Width: =75
         X: =103
-        Y: =636
+        Y: =597
         ZIndex: =33
 
     Label1_24 As label:
@@ -237,7 +237,7 @@ SucessoCadastro As screen:
         Size: =25
         Text: ="Selecione a Disciplina"
         Width: =390
-        X: =205
-        Y: =636
+        X: =187
+        Y: =597
         ZIndex: =34
 

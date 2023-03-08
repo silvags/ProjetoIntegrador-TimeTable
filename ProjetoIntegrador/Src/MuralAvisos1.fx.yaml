@@ -211,12 +211,15 @@ MuralAvisos1 As screen:
         ZIndex: =46
 
     Button5_1 As button:
-        Fill: =RGBA(151, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(0, 0, 0, 0)
+        HoverColor: =RGBA(0, 0, 0, 1)
+        HoverFill: =ColorFade(RGBA(32, 90, 108, 1), -20%)
         OnSelect: =Navigate(MuralAvisos2)
         Size: =24
         Text: ="2"
-        Width: =80
-        X: =260
+        Width: =40
+        X: =248
         Y: =936
         ZIndex: =53
 
