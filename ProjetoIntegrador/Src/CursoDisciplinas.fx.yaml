@@ -86,7 +86,7 @@ CursoDisciplinas As screen:
         Size: =21
         Width: =575
         X: =33
-        Y: =318
+        Y: =391
         ZIndex: =20
 
     lstDisciplinas As dropdown:
@@ -114,16 +114,16 @@ CursoDisciplinas As screen:
         Size: =25
         Text: ="CURSO"
         Width: =250
-        X: =243
-        Y: =229
+        X: =252
+        Y: =307
         ZIndex: =22
 
     Image25 As image:
         Height: =65
         Image: ='20'
         Width: =75
-        X: =168
-        Y: =214
+        X: =122
+        Y: =307
         ZIndex: =23
 
     Footer_CursoDisciplinas As group:
@@ -194,6 +194,18 @@ CursoDisciplinas As screen:
             X: =144
             Y: =1092
             ZIndex: =30
+
+    Label7 As label:
+        Align: =Align.Center
+        Color: =RGBA(246, 88, 16, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =122
+        Size: =21
+        Text: ="PAGINA INATIVA"
+        Width: =560
+        X: =52
+        Y: =168
+        ZIndex: =35
 
     Header_CursoDisciplinas As group:
         Height: =5

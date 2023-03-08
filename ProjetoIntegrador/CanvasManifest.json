@@ -124,14 +124,14 @@
     "TelaCadastro3",
     "SucessoCadastro",
     "TelaMenu",
-    "CursoDisciplinas",
-    "Home",
-    "MuralAvisos",
-    "Avisos",
-    "Atividades",
-    "Turma",
     "NotasFrequencia",
-    "Visualizar Notas e Frequência",
-    "Calendario"
+    "Atividades",
+    "Calendario",
+    "MuralAvisos",
+    "Home",
+    "Avisos",
+    "Turma",
+    "CursoDisciplinas",
+    "Visualizar Notas e Frequência"
   ]
 }
