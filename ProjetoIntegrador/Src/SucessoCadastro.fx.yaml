@@ -112,8 +112,8 @@ SucessoCadastro As screen:
             )
         Size: =21
         Width: =575
-        X: =48
-        Y: =481
+        X: =40
+        Y: =658
         ZIndex: =29
 
     Footer_SucessoCadastro As group:
@@ -185,24 +185,6 @@ SucessoCadastro As screen:
             Y: =1092
             ZIndex: =28
 
-    lstDisciplinas_2 As dropdown:
-        BorderColor: =RGBA(102, 182, 227, 1)
-        ChevronBackground: =RGBA(102, 182, 227, 1)
-        Color: =RGBA(0, 13, 75, 1)
-        Height: =70
-        Items: |+
-            =//Distinct(CollectTeste;DISCIPLINA
-            
-            Filter(CollectTeste,CURSO = lstCursos.Selected.Result)
-            
-            
-        OnSelect: =CollectTeste
-        Size: =21
-        Width: =575
-        X: =48
-        Y: =690
-        ZIndex: =30
-
     Label1_23 As label:
         Color: =RGBA(0, 78, 100, 1)
         FontWeight: =FontWeight.Bold
@@ -210,34 +192,15 @@ SucessoCadastro As screen:
         Size: =25
         Text: ="Selecione o Curso"
         Width: =350
-        X: =178
-        Y: =411
+        X: =171
+        Y: =507
         ZIndex: =31
 
     Image25_6 As image:
         Height: =65
         Image: ='20'
         Width: =75
-        X: =84
-        Y: =411
+        X: =69
+        Y: =507
         ZIndex: =32
-
-    Image25_8 As image:
-        Height: =65
-        Image: ='25'
-        Width: =75
-        X: =103
-        Y: =597
-        ZIndex: =33
-
-    Label1_24 As label:
-        Color: =RGBA(0, 78, 100, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =70
-        Size: =25
-        Text: ="Selecione a Disciplina"
-        Width: =390
-        X: =187
-        Y: =597
-        ZIndex: =34
 
