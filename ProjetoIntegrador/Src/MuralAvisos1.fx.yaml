@@ -219,8 +219,8 @@ MuralAvisos1 As screen:
         Size: =24
         Text: ="2"
         Width: =40
-        X: =248
-        Y: =936
+        X: =272
+        Y: =927
         ZIndex: =53
 
     Paginacao_1 As group:
