@@ -8,7 +8,7 @@ Aviso1 As screen:
         BorderThickness: =1
         Fill: =RGBA(42, 157, 140, 1)
         Height: =70
-        OnSelect: =Navigate(MuralAvisos)
+        OnSelect: =Navigate(mural)
         Size: =24
         Text: ="VOLTAR"
         Width: =400

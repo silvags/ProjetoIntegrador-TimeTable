@@ -8,7 +8,7 @@ Aviso2 As screen:
         BorderThickness: =1
         Fill: =RGBA(42, 157, 140, 1)
         Height: =70
-        OnSelect: =Navigate(MuralAvisos)
+        OnSelect: =Navigate(mural)
         Size: =24
         Text: ="VOLTAR"
         Width: =400
@@ -34,27 +34,11 @@ Aviso2 As screen:
         FontWeight: =FontWeight.Bold
         Height: =47
         Size: =26
-        Text: ="Divulgado boletim semestral "
+        Text: ="Prazo de Atividades "
         Width: =524
         X: =38
         Y: =261
         ZIndex: =21
-
-    Label21_1 As label:
-        Color: =RGBA(51, 51, 51, 1)
-        Height: =420
-        Size: =18
-        Text: |-
-            ="Prezados alunos(as),
-            
-            Informamos que foi divulgado o boletim semestral. Lembre-se que, para acessar seu boletim, basta clicar em ‘Notas e frequências’ no menu lateral e escolher o período desejado.Para os alunos(as) que foram reprovados em alguma matéria, informamos que a atividade de recuperação será disponibilizada na próxima semana.
-            
-            Atenciosamente,
-            Coordenação."
-        Width: =572
-        X: =39
-        Y: =378
-        ZIndex: =22
 
     Footer_Avisos_1 As group:
         Height: =5
