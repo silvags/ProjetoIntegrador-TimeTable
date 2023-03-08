@@ -130,7 +130,7 @@ MuralAvisos2 As screen:
         Height: =59
         OnSelect: =
         Size: =23
-        Text: ="Divulgado boletim semestral"
+        Text: ="Bolsa de Estudos Internacional"
         Width: =501
         X: =82
         Y: =276
@@ -151,7 +151,7 @@ MuralAvisos2 As screen:
     Label9_9 As label:
         Height: =118
         Size: =21
-        Text: ="Prezados aluno fique atento às atividades que estão iniciando, e não perca o prazo..."
+        Text: =
         Width: =501
         X: =71
         Y: =335
@@ -159,7 +159,7 @@ MuralAvisos2 As screen:
 
     Button4_3 As button:
         Height: =70
-        OnSelect: =Navigate(Aviso1)
+        OnSelect: =Navigate(Aviso3)
         Size: =24
         Text: ="LEIA MAIS"
         Width: =280
@@ -182,7 +182,7 @@ MuralAvisos2 As screen:
     Label9_8 As label:
         Height: =118
         Size: =21
-        Text: ="Prezados aluno fique atento às atividades que estão iniciando, e não perca o prazo..."
+        Text: ="Prezados aluno temos uma oportunidade de estágio em Ciência de Dados, para mais informações..."
         Width: =501
         X: =62
         Y: =654
@@ -194,7 +194,7 @@ MuralAvisos2 As screen:
         Height: =59
         OnSelect: =
         Size: =23
-        Text: ="Prazo das Atividades"
+        Text: ="Oportunidade de Estágio"
         Width: =501
         X: =69
         Y: =581
@@ -202,13 +202,22 @@ MuralAvisos2 As screen:
 
     Button4_2 As button:
         Height: =70
-        OnSelect: =Navigate(Aviso1)
+        OnSelect: =Navigate(Aviso4)
         Size: =24
         Text: ="LEIA MAIS"
         Width: =280
         X: =152
         Y: =782
         ZIndex: =46
+
+    Button5 As button:
+        OnSelect: =
+        Size: =24
+        Text: ="2"
+        Width: =80
+        X: =260
+        Y: =936
+        ZIndex: =53
 
     Paginacao_2 As group:
         Height: =5
@@ -229,19 +238,6 @@ MuralAvisos2 As screen:
             X: =196
             Y: =924
             ZIndex: =47
-
-        Pag2_2 As label:
-            Align: =Align.Center
-            Color: =RGBA(51, 51, 51, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            FontWeight: =FontWeight.Bold
-            Height: =52
-            Size: =24
-            Text: ="2"
-            Width: =40
-            X: =278
-            Y: =926
-            ZIndex: =48
 
         Pag3_2 As label:
             Align: =Align.Center

@@ -210,6 +210,16 @@ MuralAvisos1 As screen:
         Y: =782
         ZIndex: =46
 
+    Button5_1 As button:
+        Fill: =RGBA(151, 0, 0, 1)
+        OnSelect: =Navigate(MuralAvisos2)
+        Size: =24
+        Text: ="2"
+        Width: =80
+        X: =260
+        Y: =936
+        ZIndex: =53
+
     Paginacao_1 As group:
         Height: =5
         Width: =5
@@ -229,20 +239,6 @@ MuralAvisos1 As screen:
             X: =196
             Y: =924
             ZIndex: =47
-
-        Pag2_1 As label:
-            Align: =Align.Center
-            Color: =RGBA(51, 51, 51, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            FontWeight: =FontWeight.Bold
-            Height: =52
-            OnSelect: =Navigate(MuralAvisos2)
-            Size: =24
-            Text: ="2"
-            Width: =40
-            X: =278
-            Y: =926
-            ZIndex: =48
 
         Pag3_1 As label:
             Align: =Align.Center

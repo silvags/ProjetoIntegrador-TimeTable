@@ -1,0 +1,198 @@
+Aviso4 As screen:
+    BackgroundImage: =
+    Fill: =RGBA(0, 0, 0, 0)
+    ImagePosition: =ImagePosition.Tile
+
+    Button1_19 As button:
+        BorderColor: =RGBA(42,157,140,1000)
+        BorderThickness: =1
+        Fill: =RGBA(42, 157, 140, 1)
+        Height: =70
+        OnSelect: =Navigate(MuralAvisos2)
+        Size: =24
+        Text: ="VOLTAR"
+        Width: =400
+        X: =120
+        Y: =896
+        ZIndex: =19
+
+    Label19_7 As label:
+        Color: =RGBA(51, 51, 51, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =39
+        Size: =22
+        Text: |-
+            ="Coordenação
+            "
+        Width: =204
+        X: =38
+        Y: =319
+        ZIndex: =20
+
+    Label20_3 As label:
+        Color: =RGBA(51, 51, 51, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =47
+        Size: =26
+        Text: ="Oportunidade de Estágio "
+        Width: =524
+        X: =38
+        Y: =261
+        ZIndex: =21
+
+    Label21_2 As label:
+        Color: =RGBA(51, 51, 51, 1)
+        Height: =420
+        Size: =18
+        Text: |-
+            ="Prezados alunos(as),
+            
+            Informamos que foi divulgado o boletim semestral. Lembre-se que, para acessar seu boletim, basta clicar em ‘Notas e frequências’ no menu lateral e escolher o período desejado.Para os alunos(as) que foram reprovados em alguma matéria, informamos que a atividade de recuperação será disponibilizada na próxima semana.
+            
+            Atenciosamente,
+            Coordenação."
+        Width: =572
+        X: =39
+        Y: =378
+        ZIndex: =22
+
+    Footer_Avisos_3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =33
+
+        Rectangle3_61 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =140
+            Width: =640
+            Y: =996
+            ZIndex: =26
+
+        Facebook_19 As image:
+            Height: =65
+            Image: ='icons8-facebook-90'
+            TabIndex: =2
+            Width: =65
+            X: =84
+            Y: =1020
+            ZIndex: =27
+
+        Instagram_19 As image:
+            Height: =65
+            Image: ='icons8-instagram-128'
+            TabIndex: =2
+            Width: =65
+            X: =187
+            Y: =1020
+            ZIndex: =28
+
+        Linkedin_19 As image:
+            Height: =65
+            Image: ='icons8-linkedin-128'
+            TabIndex: =2
+            Width: =65
+            X: =289
+            Y: =1020
+            ZIndex: =29
+
+        Youtube_19 As image:
+            Height: =65
+            Image: ='icons8-youtube-squared-128'
+            TabIndex: =2
+            Width: =65
+            X: =390
+            Y: =1020
+            ZIndex: =30
+
+        Twitter_19 As image:
+            Height: =65
+            Image: ='icons8-twitter-squared-64'
+            TabIndex: =2
+            Width: =65
+            X: =490
+            Y: =1020
+            ZIndex: =31
+
+        "'Todos os direitos reservados_21' As label":
+            Align: =Align.Center
+            Color: =RGBA(105, 105, 105, 1)
+            Size: =14
+            Text: ="Todos os direitos reservados - 2023"
+            Width: =377
+            X: =144
+            Y: =1092
+            ZIndex: =32
+
+    Titulo_Avisos_3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =37
+
+        Image3_8 As image:
+            Height: =47
+            Image: ='28'
+            Width: =69
+            X: =219
+            Y: =134
+            ZIndex: =23
+
+        Label1_10 As label:
+            Color: =RGBA(0, 78, 100, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =60
+            Size: =26
+            Text: ="AVISO"
+            Width: =120
+            X: =297
+            Y: =129
+            ZIndex: =36
+
+    Label19_6 As label:
+        Color: =RGBA(51, 51, 51, 1)
+        Height: =41
+        Size: =16
+        Text: |-
+            ="Data: 05/03/2023
+            "
+        Width: =262
+        X: =40
+        Y: =208
+        ZIndex: =40
+
+    Header_Avisos_3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =20
+        ZIndex: =40
+
+        Rectangle3_60 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =125
+            Width: =640
+            ZIndex: =37
+
+        Image12_30 As image:
+            Height: =80
+            Image: ='NATAL 2022_1'
+            OnSelect: =Navigate(TelaAcesso)
+            Width: =102
+            X: =521
+            Y: =19
+            ZIndex: =38
+
+        Icon2_24 As icon.Hamburger:
+            Color: =RGBA(0, 165, 207, 1)
+            FocusedBorderThickness: =10
+            Height: =55
+            Icon: =Icon.Hamburger
+            OnSelect: =Navigate(TelaMenu)
+            Width: =55
+            X: =39
+            Y: =31
+            ZIndex: =39
+
