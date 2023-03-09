@@ -5,7 +5,7 @@ NotasFrequencia As screen:
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =349
-        Items: =Search('Notas e Faltas',TextInputNotasFaltas.Text,"Title","NotaP1")
+        Items: =Search('Notas e Faltas',TextInputNotasFaltas.Text,"Title")
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
