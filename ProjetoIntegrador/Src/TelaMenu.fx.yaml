@@ -54,11 +54,11 @@ TelaMenu As screen:
         X: =602
         ZIndex: =28
 
-    Label8 As label:
+    LabelNomeCurso As label:
         Color: =RGBA(255, 0, 0, 1)
         Height: =70
         Size: =25
-        Text: ="colocar nome do curso"
+        Text: =Param(lstCursos_2.Selected.Result)
         Width: =560
         X: =80
         Y: =129
