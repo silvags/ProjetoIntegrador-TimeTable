@@ -4,12 +4,12 @@ NotasFrequencia As screen:
     ImagePosition: =ImagePosition.Tile
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
-        Height: =628
+        Height: =349
         Items: =Search('Notas e Faltas',TextInputNotasFaltas.Text,"Title","NotaP1")
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
-        Y: =367
+        Y: =448
         ZIndex: =1
 
         Title1 As label:
@@ -180,8 +180,9 @@ NotasFrequencia As screen:
             ZIndex: =31
 
     TextInputNotasFaltas As text:
-        Default: ="Entrada de texto"
+        Default: =""
         Height: =70
+        HintText: ="Digite o nome da disciplina"
         Size: =21
         Width: =420
         X: =194
