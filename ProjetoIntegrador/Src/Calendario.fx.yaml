@@ -88,7 +88,7 @@ Calendario As screen:
         BorderThickness: =1
         Fill: =RGBA(42, 157, 140, 1)
         Height: =70
-        OnSelect: =Navigate(SucessoCadastro)
+        OnSelect: =Navigate(TelaMenu)
         Size: =24
         Text: ="CONTINUAR"
         Width: =400
