@@ -4,15 +4,15 @@ NotasFrequencia As screen:
     ImagePosition: =ImagePosition.Tile
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
-        Height: =507
+        Height: =628
         Items: ='Notas e Faltas'
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
-        Y: =406
+        Y: =367
         ZIndex: =1
 
-        Title3 As label:
+        Title1 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -27,7 +27,7 @@ NotasFrequencia As screen:
             Y: =16
             ZIndex: =1
 
-        Subtitle3 As label:
+        Subtitle1 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -39,7 +39,7 @@ NotasFrequencia As screen:
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
-            Y: =Title3.Y + Title3.Height + 2
+            Y: =Title1.Y + Title1.Height + 2
             ZIndex: =2
 
         Body1 As label:
@@ -49,14 +49,15 @@ NotasFrequencia As screen:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.'Nota P2'
+            Text: |-
+                ="Faltas: " & ThisItem.'Total Faltas'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
-            Y: =Subtitle3.Y + Subtitle3.Height + 4
+            Y: =Subtitle1.Y + Subtitle1.Height + 4
             ZIndex: =3
 
-        NextArrow3 As icon.ChevronRight:
+        NextArrow1 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.ChevronRight
@@ -72,7 +73,7 @@ NotasFrequencia As screen:
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =4
 
-        Separator4 As rectangle:
+        Separator2 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
@@ -98,19 +99,6 @@ NotasFrequencia As screen:
         Y: =195
         ZIndex: =18
 
-    Button1_11 As button:
-        BorderColor: =RGBA(42,157,140,1000)
-        BorderThickness: =1
-        Fill: =RGBA(42, 157, 140, 1)
-        Height: =70
-        OnSelect: =Navigate(SucessoCadastro)
-        Size: =24
-        Text: ="CONTINUAR"
-        Width: =400
-        X: =120
-        Y: =926
-        ZIndex: =19
-
     Label15 As label:
         FontWeight: =FontWeight.Bold
         Height: =70
@@ -118,8 +106,8 @@ NotasFrequencia As screen:
         Text: |-
             ="Disciplina:"
         Width: =180
-        X: =23
-        Y: =317
+        X: =7
+        Y: =280
         ZIndex: =23
 
     Footer_NotasFrequencia As group:
@@ -195,9 +183,9 @@ NotasFrequencia As screen:
         Default: ="Entrada de texto"
         Height: =70
         Size: =21
-        Width: =400
-        X: =203
-        Y: =317
+        Width: =420
+        X: =194
+        Y: =280
         ZIndex: =36
 
     Header_NotasFrequencia As group:
@@ -237,7 +225,7 @@ NotasFrequencia As screen:
         Height: =44
         Icon: =Icon.Search
         Width: =44
-        X: =550
-        Y: =330
+        X: =570
+        Y: =293
         ZIndex: =37
 
