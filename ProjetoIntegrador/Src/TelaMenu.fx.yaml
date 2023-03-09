@@ -89,12 +89,10 @@ TelaMenu As screen:
             Y: =24
             ZIndex: =5
 
-    Arrow2_2 As arrow.backArrow:
-        BorderColor: =RGBA(42, 157, 140, 1)
-        BorderThickness: =3
-        Fill: =RGBA(42, 157, 140, 1)
-        OnSelect: =Navigate(TelaMenu)
-        X: =36
+    Icon5 As icon.BackArrow:
+        Icon: =Icon.BackArrow
+        OnSelect: =Navigate(SucessoCadastro)
+        X: =63
         Y: =1048
         ZIndex: =30
 
