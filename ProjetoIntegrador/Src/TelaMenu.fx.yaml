@@ -33,8 +33,8 @@ TelaMenu As screen:
         Size: =22
         Text: ="Sair"
         Width: =96
-        X: =56
-        Y: =1041
+        X: =240
+        Y: =1048
         ZIndex: =22
 
     Image5 As image:
@@ -88,6 +88,15 @@ TelaMenu As screen:
             X: =177
             Y: =24
             ZIndex: =5
+
+    Arrow2_2 As arrow.backArrow:
+        BorderColor: =RGBA(42, 157, 140, 1)
+        BorderThickness: =3
+        Fill: =RGBA(42, 157, 140, 1)
+        OnSelect: =Navigate(TelaMenu)
+        X: =36
+        Y: =1048
+        ZIndex: =30
 
     "'Meu perfil' As group":
         Height: =5
