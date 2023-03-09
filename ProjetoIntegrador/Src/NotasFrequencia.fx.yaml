@@ -5,14 +5,14 @@ NotasFrequencia As screen:
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =349
-        Items: =Search('Notas e Faltas',TextInputNotasFaltas.Text,"Title")
+        Items: =Search('Notas e Faltas',TextInputNotasFaltas.Text,"Title","NotaP1")
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
         Y: =448
         ZIndex: =1
 
-        Title1 As label:
+        Title5 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -27,7 +27,7 @@ NotasFrequencia As screen:
             Y: =16
             ZIndex: =1
 
-        Subtitle1 As label:
+        Subtitle3 As label:
             Height: =Self.Size * 1.8
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -35,14 +35,14 @@ NotasFrequencia As screen:
             PaddingRight: =0
             PaddingTop: =0
             Text: |-
-                ="Nota P1: " &ThisItem.'Nota P1'
+                ="Nota P1: " & ThisItem.'Nota P1'
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
-            Y: =Title1.Y + Title1.Height + 2
+            Y: =Title5.Y + Title5.Height + 2
             ZIndex: =2
 
-        Body1 As label:
+        Body2 As label:
             Height: =Self.Size * 4
             OnSelect: =Select(Parent)
             PaddingBottom: =0
@@ -54,10 +54,10 @@ NotasFrequencia As screen:
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 104
             X: =32
-            Y: =Subtitle1.Y + Subtitle1.Height + 4
+            Y: =Subtitle3.Y + Subtitle3.Height + 4
             ZIndex: =3
 
-        NextArrow1 As icon.ChevronRight:
+        NextArrow5 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
             Height: =60
             Icon: =Icon.ChevronRight
@@ -73,7 +73,7 @@ NotasFrequencia As screen:
             Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
             ZIndex: =4
 
-        Separator2 As rectangle:
+        Separator6 As rectangle:
             Height: =1
             OnSelect: =Select(Parent)
             Width: =Parent.TemplateWidth
