@@ -444,8 +444,8 @@
     "TelaLogin": 507,
     "TelaMenu": 102,
     "TextInput1": 53,
-    "TextInput2": 167,
     "TextInputEmail": 512,
+    "TextInputNotasFaltas": 167,
     "TextInputSenha": 514,
     "Timetable": 70,
     "Title1": 527,
@@ -529,7 +529,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "03/09/2023 21:25:55",
+  "HeaderLastSavedDateTimeUTC": "03/09/2023 21:32:15",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "011faafa-c34d-46b3-87be-7ccdd485d9cb": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/e9911849802646e781efbefd2f311fa9\"",
@@ -1454,8 +1454,8 @@
     "TelaLogin": {},
     "TelaMenu": {},
     "TextInput1": {},
-    "TextInput2": {},
     "TextInputEmail": {},
+    "TextInputNotasFaltas": {},
     "TextInputSenha": {},
     "Timetable": {},
     "Title1": {},
@@ -1981,8 +1981,8 @@
     "TelaLogin": 0,
     "TelaMenu": 0,
     "TextInput1": 117,
-    "TextInput2": 0,
     "TextInputEmail": 11,
+    "TextInputNotasFaltas": 0,
     "TextInputSenha": 13,
     "Timetable": 134,
     "Title1": 0,
@@ -2132,7 +2132,7 @@
       "typedDataCard": 9
     },
     "DeserializationLoadTime": 4.4896615,
-    "ErrorCount": 0
+    "ErrorCount": 1
   },
   "WasLocalDatabaseReferencesEmpty": false
 }

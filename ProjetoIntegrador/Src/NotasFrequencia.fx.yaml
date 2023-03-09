@@ -5,7 +5,7 @@ NotasFrequencia As screen:
 
     "Gallery2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver4.0'":
         Height: =628
-        Items: ='Notas e Faltas'
+        Items: =Search('Notas e Faltas',TextInputNotasFaltas.Text,"Title","NotaP1")
         Layout: =Layout.Vertical
         TemplatePadding: =0
         TemplateSize: =Min(168, Self.Height - 60)
@@ -179,7 +179,7 @@ NotasFrequencia As screen:
             Y: =1092
             ZIndex: =31
 
-    TextInput2 As text:
+    TextInputNotasFaltas As text:
         Default: ="Entrada de texto"
         Height: =70
         Size: =21
