@@ -60,5 +60,30 @@
     "dependencies": {},
     "dependents": [],
     "id": "50471254-8922-4980-9b2b-f48fb005d5a9"
+  },
+  "68fdde3e-59e6-4b66-bd28-f6116d9e01ea": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/releases/ase-v3/1.0.1622.3200/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://bp84-my.sharepoint.com/personal/bruna_pacheco_bp84_onmicrosoft_com": {
+        "dataSources": {
+          "Notas e Faltas": {
+            "tableName": "7c690031-5b8c-4eb7-a54f-01b6253d696a"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Notas e Faltas"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "68fdde3e-59e6-4b66-bd28-f6116d9e01ea"
   }
 }
