@@ -3,66 +3,126 @@ MuralAvisos2 As screen:
     Fill: =RGBA(0, 0, 0, 0)
     ImagePosition: =ImagePosition.Tile
 
-    Footer_NotasFrequencia_2 As group:
+    PaginacaoAvisos_1 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
-        ZIndex: =32
+        ZIndex: =79
 
-        Rectangle3_57 As rectangle:
+        Pag1_2 As label:
+            Align: =Align.Center
+            Color: =RGBA(149, 149, 149, 1)
+            Fill: =RGBA(219, 219, 219, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =52
+            Size: =24
+            Text: ="2"
+            Width: =40
+            X: =347
+            Y: =924
+            ZIndex: =74
+
+        "'Pag<_3' As label":
+            Align: =Align.Center
+            Color: =RGBA(51, 51, 51, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =52
+            OnSelect: =Navigate(MuralAvisos1)
+            Size: =24
+            Text: ="<"
+            Width: =40
+            X: =179
+            Y: =924
+            ZIndex: =75
+
+        "'Pag>_3' As label":
+            Align: =Align.Center
+            Color: =RGBA(149, 149, 149, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =52
+            Size: =24
+            Text: =">"
+            Width: =40
+            X: =445
+            Y: =924
+            ZIndex: =76
+
+        Pag2_1 As button:
+            Color: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(0, 0, 0, 0)
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =ColorFade(RGBA(32, 90, 108, 1), -20%)
+            OnSelect: =Navigate(MuralAvisos1)
+            Size: =24
+            Text: ="1"
+            Width: =40
+            X: =271
+            Y: =930
+            ZIndex: =77
+
+    Footer_NotasFrequencia_3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =80
+
+        Rectangle3_64 As rectangle:
             Fill: =RGBA(122, 229, 130, 1)
             Height: =140
             Width: =640
             Y: =996
-            ZIndex: =25
+            ZIndex: =55
 
-        Facebook_17 As image:
+        Facebook_21 As image:
             Height: =65
             Image: ='icons8-facebook-90'
             TabIndex: =2
             Width: =65
             X: =84
             Y: =1020
-            ZIndex: =26
+            ZIndex: =56
 
-        Instagram_17 As image:
+        Instagram_21 As image:
             Height: =65
             Image: ='icons8-instagram-128'
             TabIndex: =2
             Width: =65
             X: =187
             Y: =1020
-            ZIndex: =27
+            ZIndex: =57
 
-        Linkedin_17 As image:
+        Linkedin_21 As image:
             Height: =65
             Image: ='icons8-linkedin-128'
             TabIndex: =2
             Width: =65
             X: =289
             Y: =1020
-            ZIndex: =28
+            ZIndex: =58
 
-        Youtube_17 As image:
+        Youtube_21 As image:
             Height: =65
             Image: ='icons8-youtube-squared-128'
             TabIndex: =2
             Width: =65
             X: =390
             Y: =1020
-            ZIndex: =29
+            ZIndex: =59
 
-        Twitter_17 As image:
+        Twitter_21 As image:
             Height: =65
             Image: ='icons8-twitter-squared-64'
             TabIndex: =2
             Width: =65
             X: =490
             Y: =1020
-            ZIndex: =30
+            ZIndex: =60
 
-        "'Todos os direitos reservados_19' As label":
+        "'Todos os direitos reservados_23' As label":
             Align: =Align.Center
             Color: =RGBA(105, 105, 105, 1)
             Size: =14
@@ -70,39 +130,31 @@ MuralAvisos2 As screen:
             Width: =377
             X: =144
             Y: =1092
-            ZIndex: =31
+            ZIndex: =61
 
-    Image3_6 As image:
-        Height: =114
-        Image: ='28'
-        Width: =174
-        X: =13
-        Y: =127
-        ZIndex: =36
-
-    Header_NotasFrequencia_2 As group:
+    Header_NotasFrequencia_3 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =20
-        ZIndex: =36
+        ZIndex: =81
 
-        Rectangle3_56 As rectangle:
+        Rectangle3_65 As rectangle:
             Fill: =RGBA(122, 229, 130, 1)
             Height: =125
             Width: =640
-            ZIndex: =33
+            ZIndex: =62
 
-        Image12_28 As image:
+        Image12_32 As image:
             Height: =80
             Image: ='NATAL 2022_1'
             OnSelect: =Navigate(TelaAcesso)
             Width: =102
             X: =521
             Y: =19
-            ZIndex: =34
+            ZIndex: =63
 
-        Icon2_22 As icon.Hamburger:
+        Icon2_26 As icon.Hamburger:
             Color: =RGBA(0, 165, 207, 1)
             FocusedBorderThickness: =10
             Height: =55
@@ -111,183 +163,133 @@ MuralAvisos2 As screen:
             Width: =55
             X: =39
             Y: =31
-            ZIndex: =35
+            ZIndex: =64
 
-    Label1_20 As label:
-        Color: =RGBA(0, 78, 100, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =70
-        Size: =25
-        Text: ="MURAL DE AVISOS"
-        Width: =450
-        X: =173
-        Y: =182
-        ZIndex: =37
-
-    Label8_6 As label:
-        Color: =RGBA(51, 51, 51, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =59
-        OnSelect: =
-        Size: =23
-        Text: ="Bolsa de Estudos Internacional"
-        Width: =501
-        X: =82
-        Y: =276
-        ZIndex: =38
-
-    Rectangle1_7 As rectangle:
-        BorderColor: =RGBA(102, 182, 227, 1)
-        BorderThickness: =2
-        DisplayMode: =DisplayMode.View
-        Fill: =RGBA(0, 0, 0, 0)
-        Height: =302
-        OnSelect: =
-        Width: =540
-        X: =53
-        Y: =241
-        ZIndex: =39
-
-    Label9_9 As label:
-        Height: =118
-        Size: =21
-        Text: =
-        Width: =501
-        X: =71
-        Y: =335
-        ZIndex: =40
-
-    Button4_3 As button:
-        Height: =70
-        OnSelect: =Navigate(Aviso3)
-        Size: =24
-        Text: ="LEIA MAIS"
-        Width: =280
-        X: =158
-        Y: =453
-        ZIndex: =41
-
-    Rectangle1_9 As rectangle:
-        BorderColor: =RGBA(102, 182, 227, 1)
-        BorderThickness: =2
-        DisplayMode: =DisplayMode.View
-        Fill: =RGBA(0, 0, 0, 0)
-        Height: =302
-        OnSelect: =
-        Width: =540
-        X: =43
-        Y: =573
-        ZIndex: =43
-
-    Label9_8 As label:
-        Height: =118
-        Size: =21
-        Text: ="Prezados aluno temos uma oportunidade de estágio em Ciência de Dados, para mais informações..."
-        Width: =501
-        X: =62
-        Y: =654
-        ZIndex: =44
-
-    Label8_7 As label:
-        Color: =RGBA(51, 51, 51, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =59
-        OnSelect: =
-        Size: =23
-        Text: ="Oportunidade de Estágio"
-        Width: =501
-        X: =69
-        Y: =581
-        ZIndex: =45
-
-    Button4_2 As button:
-        Height: =70
-        OnSelect: =Navigate(Aviso4)
-        Size: =24
-        Text: ="LEIA MAIS"
-        Width: =280
-        X: =152
-        Y: =782
-        ZIndex: =46
-
-    Button5 As button:
-        Color: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(0, 0, 0, 0)
-        OnSelect: =
-        Size: =24
-        Text: ="2"
-        Width: =40
-        X: =236
-        Y: =926
-        ZIndex: =53
-
-    Paginacao_2 As group:
+    BoletimSemestral_1 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
-        ZIndex: =53
+        ZIndex: =82
 
-        Pag3_2 As label:
-            Align: =Align.Center
+        Rectangle1_11 As rectangle:
+            BorderColor: =RGBA(102, 182, 227, 1)
+            BorderThickness: =2
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =302
+            OnSelect: =
+            Width: =540
+            X: =53
+            Y: =221
+            ZIndex: =66
+
+        Label8_8 As label:
             Color: =RGBA(51, 51, 51, 1)
-            Fill: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Bold
-            Height: =52
+            Height: =59
+            OnSelect: =
             Size: =24
-            Text: ="3"
-            Width: =40
-            X: =348
-            Y: =926
-            ZIndex: =49
+            Text: ="Bolsa de estudos internacional"
+            Width: =501
+            X: =72
+            Y: =236
+            ZIndex: =67
 
-        Pag4_2 As label:
-            Align: =Align.Center
+        Label9_12 As label:
+            Height: =118
+            Size: =21
+            Text: ="Prezados alunos, não percam o prazo para participar do processo que selecionará os alunos..."
+            Width: =501
+            X: =71
+            Y: =295
+            ZIndex: =68
+
+        Button4_4 As button:
+            Fill: =RGBA(42, 157, 140, 1)
+            Height: =70
+            OnSelect: =Navigate(Aviso3)
+            Size: =24
+            Text: ="Leia mais"
+            Width: =280
+            X: =182
+            Y: =430
+            ZIndex: =69
+
+    PrazoAtividades_1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =83
+
+        Rectangle1_12 As rectangle:
+            BorderColor: =RGBA(102, 182, 227, 1)
+            BorderThickness: =2
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =302
+            OnSelect: =
+            Width: =540
+            X: =53
+            Y: =573
+            ZIndex: =70
+
+        Label9_13 As label:
+            Height: =118
+            Size: =21
+            Text: ="Prezados alunos, temos uma oportunidade de estágio em Ciência de Dados, para mais informações..."
+            Width: =501
+            X: =72
+            Y: =636
+            ZIndex: =71
+
+        Label8_9 As label:
             Color: =RGBA(51, 51, 51, 1)
-            Fill: =RGBA(255, 255, 255, 1)
             FontWeight: =FontWeight.Bold
-            Height: =52
+            Height: =59
+            OnSelect: =
             Size: =24
-            Text: ="4"
-            Width: =40
-            X: =418
-            Y: =926
-            ZIndex: =50
+            Text: ="Oportunidade de estágio"
+            Width: =501
+            X: =69
+            Y: =581
+            ZIndex: =72
 
-        "'Pag<_2' As label":
-            Align: =Align.Center
-            Color: =RGBA(149, 149, 149, 1)
-            Fill: =RGBA(255, 255, 255, 1)
+        Button4_5 As button:
+            Fill: =RGBA(42, 157, 140, 1)
+            Height: =70
+            OnSelect: =Navigate(Aviso4)
+            Size: =24
+            Text: ="Leia mais"
+            Width: =280
+            X: =162
+            Y: =782
+            ZIndex: =73
+
+    Titulo_MuralAvisos_1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =84
+
+        Image3_9 As image:
+            Height: =49
+            Image: ='28'
+            Width: =64
+            X: =144
+            Y: =135
+            ZIndex: =65
+
+        Label1_14 As label:
+            Color: =RGBA(0, 78, 100, 1)
             FontWeight: =FontWeight.Bold
-            Height: =52
-            Size: =24
-            Text: ="<"
-            Width: =40
-            X: =104
-            Y: =924
-            ZIndex: =51
-
-        "'Pag>_2' As label":
-            Align: =Align.Center
-            Color: =RGBA(51, 51, 51, 1)
-            Fill: =RGBA(255, 255, 255, 1)
-            FontWeight: =FontWeight.Bold
-            Height: =52
-            Size: =24
-            Text: =">"
-            Width: =40
-            X: =503
-            Y: =924
-            ZIndex: =52
-
-    Button5_2 As button:
-        Color: =RGBA(0, 0, 0, 1)
-        Fill: =RGBA(0, 0, 0, 0)
-        OnSelect: =Navigate(MuralAvisos1)
-        Size: =24
-        Text: ="1"
-        Width: =40
-        X: =171
-        Y: =927
-        ZIndex: =54
+            Height: =60
+            Size: =26
+            Text: ="Mural de avisos"
+            Width: =290
+            X: =223
+            Y: =129
+            ZIndex: =78
 
