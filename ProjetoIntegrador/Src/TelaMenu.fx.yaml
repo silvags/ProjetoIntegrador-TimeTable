@@ -57,12 +57,13 @@ TelaMenu As screen:
     LabelNomeCurso As label:
         Align: =Align.Center
         Color: =RGBA(51, 51, 51, 1)
+        FontWeight: =FontWeight.Bold
         Height: =70
-        Size: =20
+        Size: =18
         Text: =Text(lstCursos_2.Selected.Result)
         Width: =560
         X: =19
-        Y: =119
+        Y: =137
         ZIndex: =29
 
     Perfil As group:
@@ -109,7 +110,7 @@ TelaMenu As screen:
             Image: ='10'
             Width: =70
             X: =49
-            Y: =277
+            Y: =304
             ZIndex: =6
 
         Image3_3 As image:
@@ -117,7 +118,7 @@ TelaMenu As screen:
             Image: ='24'
             Width: =70
             X: =49
-            Y: =373
+            Y: =400
             ZIndex: =7
 
         Button3_7 As button:
@@ -131,7 +132,7 @@ TelaMenu As screen:
             Text: ="Atualizar meus dados"
             Width: =375
             X: =140
-            Y: =298
+            Y: =325
             ZIndex: =20
 
         Button3_8 As button:
@@ -145,7 +146,7 @@ TelaMenu As screen:
             Text: ="Atualizar minha senha"
             Width: =375
             X: =140
-            Y: =388
+            Y: =415
             ZIndex: =21
 
         Label10 As label:
@@ -156,7 +157,7 @@ TelaMenu As screen:
             Text: ="Meu perfil"
             Width: =200
             X: =59
-            Y: =189
+            Y: =216
             ZIndex: =24
 
         Icon3 As icon.HorizontalLine:
@@ -166,7 +167,7 @@ TelaMenu As screen:
             Icon: =Icon.HorizontalLine
             Width: =450
             X: =56
-            Y: =256
+            Y: =283
             ZIndex: =25
 
     Ferramentas As group:
@@ -181,7 +182,7 @@ TelaMenu As screen:
             Image: ='29'
             Width: =70
             X: =49
-            Y: =573
+            Y: =609
             ZIndex: =10
 
         Image22 As image:
@@ -189,7 +190,7 @@ TelaMenu As screen:
             Image: ='26'
             Width: =70
             X: =49
-            Y: =661
+            Y: =697
             ZIndex: =11
 
         Image23 As image:
@@ -197,7 +198,7 @@ TelaMenu As screen:
             Image: ='32'
             Width: =70
             X: =49
-            Y: =751
+            Y: =787
             ZIndex: =12
 
         Image24 As image:
@@ -205,7 +206,7 @@ TelaMenu As screen:
             Image: ='28'
             Width: =70
             X: =49
-            Y: =839
+            Y: =875
             ZIndex: =13
 
         Button3_3 As button:
@@ -220,7 +221,7 @@ TelaMenu As screen:
             Text: ="Notas e Frequência"
             Width: =280
             X: =140
-            Y: =591
+            Y: =627
             ZIndex: =16
 
         Button3_4 As button:
@@ -234,7 +235,7 @@ TelaMenu As screen:
             Text: ="Atividades"
             Width: =150
             X: =140
-            Y: =674
+            Y: =710
             ZIndex: =17
 
         Button3_5 As button:
@@ -248,7 +249,7 @@ TelaMenu As screen:
             Text: ="Calendário"
             Width: =264
             X: =140
-            Y: =763
+            Y: =799
             ZIndex: =18
 
         Button3_6 As button:
@@ -262,7 +263,7 @@ TelaMenu As screen:
             Text: ="Mural de Avisos"
             Width: =250
             X: =140
-            Y: =852
+            Y: =888
             ZIndex: =19
 
         Label10_1 As label:
@@ -273,7 +274,7 @@ TelaMenu As screen:
             Text: ="Ferramentas"
             Width: =220
             X: =66
-            Y: =483
+            Y: =519
             ZIndex: =26
 
         Icon3_1 As icon.HorizontalLine:
@@ -283,6 +284,6 @@ TelaMenu As screen:
             Icon: =Icon.HorizontalLine
             Width: =450
             X: =63
-            Y: =544
+            Y: =580
             ZIndex: =27
 
