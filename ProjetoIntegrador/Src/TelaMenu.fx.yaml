@@ -76,7 +76,7 @@ TelaMenu As screen:
             Image: ='Ellipse 1'
             Width: =93
             X: =49
-            Y: =66
+            Y: =27
             ZIndex: =4
 
         Label5 As label:
@@ -86,7 +86,7 @@ TelaMenu As screen:
             Text: =User().FullName
             Width: =372
             X: =177
-            Y: =75
+            Y: =36
             ZIndex: =5
 
     Icon5 As icon.BackArrow:
