@@ -72,14 +72,6 @@ MuralAvisos1 As screen:
             Y: =1092
             ZIndex: =31
 
-    Image3_1 As image:
-        Height: =114
-        Image: ='28'
-        Width: =174
-        X: =13
-        Y: =127
-        ZIndex: =36
-
     Header_NotasFrequencia_1 As group:
         Height: =5
         Width: =5
@@ -112,17 +104,6 @@ MuralAvisos1 As screen:
             X: =39
             Y: =31
             ZIndex: =35
-
-    Label1_18 As label:
-        Color: =RGBA(0, 78, 100, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =70
-        Size: =25
-        Text: ="MURAL DE AVISOS"
-        Width: =450
-        X: =173
-        Y: =182
-        ZIndex: =37
 
     Label8_4 As label:
         Color: =RGBA(51, 51, 51, 1)
@@ -294,4 +275,30 @@ MuralAvisos1 As screen:
             X: =503
             Y: =924
             ZIndex: =52
+
+    Titulo_MuralAvisos As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =56
+
+        Image3_1 As image:
+            Height: =49
+            Image: ='28'
+            Width: =64
+            X: =144
+            Y: =135
+            ZIndex: =36
+
+        Label1_13 As label:
+            Color: =RGBA(0, 78, 100, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =60
+            Size: =26
+            Text: ="Mural de avisos"
+            Width: =290
+            X: =223
+            Y: =129
+            ZIndex: =55
 

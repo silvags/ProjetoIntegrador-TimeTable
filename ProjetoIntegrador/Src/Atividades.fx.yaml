@@ -1,14 +1,5 @@
 Atividades As screen:
 
-    Icon2_2 As icon.Hamburger:
-        Color: =RGBA(0, 165, 207, 1)
-        FocusedBorderThickness: =10
-        Icon: =Icon.Hamburger
-        OnSelect: =Navigate(TelaMenu)
-        X: =30
-        Y: =53
-        ZIndex: =1
-
     ProjetoIntegrador As group:
         Height: =5
         Width: =5
