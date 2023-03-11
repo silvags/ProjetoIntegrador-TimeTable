@@ -92,6 +92,7 @@ TelaMenu As screen:
             ZIndex: =5
 
     Icon5 As icon.BackArrow:
+        Color: =RGBA(0, 78, 100, 1)
         Icon: =Icon.BackArrow
         OnSelect: =Navigate(SucessoCadastro)
         X: =59
