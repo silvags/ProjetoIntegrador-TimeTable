@@ -132,45 +132,12 @@ MuralAvisos2 As screen:
             Y: =1092
             ZIndex: =61
 
-    Header_NotasFrequencia_3 As group:
-        Height: =5
-        Width: =5
-        X: =40
-        Y: =20
-        ZIndex: =81
-
-        Rectangle3_65 As rectangle:
-            Fill: =RGBA(122, 229, 130, 1)
-            Height: =125
-            Width: =640
-            ZIndex: =62
-
-        Image12_32 As image:
-            Height: =80
-            Image: ='NATAL 2022_1'
-            OnSelect: =Navigate(TelaAcesso)
-            Width: =102
-            X: =521
-            Y: =19
-            ZIndex: =63
-
-        Icon2_26 As icon.Hamburger:
-            Color: =RGBA(0, 165, 207, 1)
-            FocusedBorderThickness: =10
-            Height: =55
-            Icon: =Icon.Hamburger
-            OnSelect: =Navigate(TelaMenu)
-            Width: =55
-            X: =39
-            Y: =31
-            ZIndex: =64
-
-    BoletimSemestral_1 As group:
+    BolsaEstudos As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
-        ZIndex: =82
+        ZIndex: =80
 
         Rectangle1_11 As rectangle:
             BorderColor: =RGBA(102, 182, 227, 1)
@@ -205,23 +172,56 @@ MuralAvisos2 As screen:
             Y: =295
             ZIndex: =68
 
-        Button4_4 As button:
+        Button6_4 As button:
             Fill: =RGBA(42, 157, 140, 1)
-            Height: =70
+            Height: =50
             OnSelect: =Navigate(Aviso3)
             Size: =24
-            Text: ="Leia mais"
+            Text: ="Ler mais"
             Width: =280
-            X: =182
-            Y: =430
-            ZIndex: =69
+            X: =183
+            Y: =440
+            ZIndex: =79
 
-    PrazoAtividades_1 As group:
+    Header_NotasFrequencia_3 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =20
+        ZIndex: =81
+
+        Rectangle3_65 As rectangle:
+            Fill: =RGBA(122, 229, 130, 1)
+            Height: =125
+            Width: =640
+            ZIndex: =62
+
+        Image12_32 As image:
+            Height: =80
+            Image: ='NATAL 2022_1'
+            OnSelect: =Navigate(TelaAcesso)
+            Width: =102
+            X: =521
+            Y: =19
+            ZIndex: =63
+
+        Icon2_26 As icon.Hamburger:
+            Color: =RGBA(0, 165, 207, 1)
+            FocusedBorderThickness: =10
+            Height: =55
+            Icon: =Icon.Hamburger
+            OnSelect: =Navigate(TelaMenu)
+            Width: =55
+            X: =39
+            Y: =31
+            ZIndex: =64
+
+    Estagio As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
-        ZIndex: =83
+        ZIndex: =81
 
         Rectangle1_12 As rectangle:
             BorderColor: =RGBA(102, 182, 227, 1)
@@ -256,16 +256,16 @@ MuralAvisos2 As screen:
             Y: =581
             ZIndex: =72
 
-        Button4_5 As button:
+        Button6_5 As button:
             Fill: =RGBA(42, 157, 140, 1)
-            Height: =70
+            Height: =50
             OnSelect: =Navigate(Aviso4)
             Size: =24
-            Text: ="Leia mais"
+            Text: ="Ler mais"
             Width: =280
-            X: =162
-            Y: =782
-            ZIndex: =73
+            X: =183
+            Y: =792
+            ZIndex: =80
 
     Titulo_MuralAvisos_2 As group:
         Height: =5
