@@ -168,7 +168,7 @@ Atividade1 As screen:
             FontWeight: =FontWeight.Bold
             Height: =60
             Size: =26
-            Text: ="ATIVIDADE"
+            Text: ="Atividade"
             Width: =200
             X: =263
             Y: =129
