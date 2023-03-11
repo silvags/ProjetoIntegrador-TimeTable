@@ -10,7 +10,7 @@ Calendario As screen:
         TemplatePadding: =0
         TemplateSize: =Min(104, Self.Height - 60)
         Transition: =Transition.Pop
-        Y: =336
+        Y: =247
         ZIndex: =1
 
         Title4 As label:
@@ -63,25 +63,6 @@ Calendario As screen:
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - 1
             ZIndex: =4
-
-    Label1_19 As label:
-        Color: =RGBA(0, 78, 100, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =69
-        Size: =25
-        Text: ="CALENDÁRIO"
-        Width: =243
-        X: =246
-        Y: =209
-        ZIndex: =17
-
-    Image25_5 As image:
-        Height: =69
-        Image: ='32'
-        Width: =90
-        X: =150
-        Y: =209
-        ZIndex: =18
 
     Button1_13 As button:
         BorderColor: =RGBA(42,157,140,1000)
@@ -197,4 +178,30 @@ Calendario As screen:
             X: =39
             Y: =31
             ZIndex: =30
+
+    Titulo_Calendario As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =33
+
+        Image25_5 As image:
+            Height: =50
+            Image: ='32'
+            Width: =64
+            X: =165
+            Y: =145
+            ZIndex: =18
+
+        Label1_18 As label:
+            Color: =RGBA(0, 78, 100, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =60
+            Size: =26
+            Text: ="Calendário"
+            Width: =290
+            X: =243
+            Y: =139
+            ZIndex: =32
 

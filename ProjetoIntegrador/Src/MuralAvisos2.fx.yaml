@@ -3,7 +3,7 @@ MuralAvisos2 As screen:
     Fill: =RGBA(0, 0, 0, 0)
     ImagePosition: =ImagePosition.Tile
 
-    PaginacaoAvisos_1 As group:
+    PaginacaoAvisos_2 As group:
         Height: =5
         Width: =5
         X: =40
@@ -267,7 +267,7 @@ MuralAvisos2 As screen:
             Y: =782
             ZIndex: =73
 
-    Titulo_MuralAvisos_1 As group:
+    Titulo_MuralAvisos_2 As group:
         Height: =5
         Width: =5
         X: =40
