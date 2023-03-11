@@ -2,20 +2,6 @@
   "QualifiedValues": [
     {
       "Kind": "default.cds_cr65a_login_forms",
-      "Namespace": "Login (Formulários)",
-      "Values": {
-        "Informações": "9a584127-2b81-43c8-89da-bc66e60fdcbf"
-      }
-    },
-    {
-      "Kind": "default.cds_cr65a_dadosaluno_forms",
-      "Namespace": "Dados Aluno (Formulários)",
-      "Values": {
-        "Informações": "0dc2f5ce-daf7-4185-bc97-f9cc1c3d8dd6"
-      }
-    },
-    {
-      "Kind": "default.cds_cr65a_login_forms",
       "Namespace": "Login (Formularios)",
       "Values": {
         "Informações": "9a584127-2b81-43c8-89da-bc66e60fdcbf"
@@ -24,6 +10,20 @@
     {
       "Kind": "default.cds_cr65a_dadosaluno_forms",
       "Namespace": "Dados Aluno (Formularios)",
+      "Values": {
+        "Informações": "0dc2f5ce-daf7-4185-bc97-f9cc1c3d8dd6"
+      }
+    },
+    {
+      "Kind": "default.cds_cr65a_login_forms",
+      "Namespace": "Login (Formulários)",
+      "Values": {
+        "Informações": "9a584127-2b81-43c8-89da-bc66e60fdcbf"
+      }
+    },
+    {
+      "Kind": "default.cds_cr65a_dadosaluno_forms",
+      "Namespace": "Dados Aluno (Formulários)",
       "Values": {
         "Informações": "0dc2f5ce-daf7-4185-bc97-f9cc1c3d8dd6"
       }

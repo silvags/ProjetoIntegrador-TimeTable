@@ -21,7 +21,8 @@
       }
     },
     "dataSources": [
-      "Calendário TimeTable"
+      "Calendário TimeTable",
+      "Notas e Faltas"
     ],
     "dependencies": {},
     "dependents": [],
