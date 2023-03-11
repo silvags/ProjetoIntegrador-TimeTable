@@ -272,7 +272,7 @@ TelaMenu As screen:
             Text: ="Ferramentas"
             Width: =220
             X: =66
-            Y: =462
+            Y: =483
             ZIndex: =26
 
         Icon3_1 As icon.HorizontalLine:
@@ -282,6 +282,6 @@ TelaMenu As screen:
             Icon: =Icon.HorizontalLine
             Width: =450
             X: =63
-            Y: =523
+            Y: =544
             ZIndex: =27
 
