@@ -56,7 +56,7 @@ TelaCadastro3 As screen:
         Height: =70
         HintText: ="Somente números"
         MaxLength: =8
-        OnSelect: =Set(VarConsultaCep,ConsultaCep.Run(TxtCep.Text))
+        OnSelect: =//Set(VarConsultaCep;ConsultaCep.Run(TxtCep.Text))
         RadiusBottomLeft: =15
         RadiusBottomRight: =15
         RadiusTopLeft: =15
