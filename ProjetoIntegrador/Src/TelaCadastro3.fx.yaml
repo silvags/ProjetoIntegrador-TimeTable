@@ -54,9 +54,9 @@ TelaCadastro3 As screen:
         Default: =""
         EnableSpellCheck: =true
         Height: =70
-        HintText: ="00000000"
+        HintText: ="Somente números"
         MaxLength: =8
-        OnSelect: =
+        OnSelect: =Set(VarConsultaCep,ConsultaCep.Run(TxtCep.Text))
         RadiusBottomLeft: =15
         RadiusBottomRight: =15
         RadiusTopLeft: =15
