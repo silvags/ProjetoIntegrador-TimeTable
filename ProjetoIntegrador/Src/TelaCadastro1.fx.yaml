@@ -10,8 +10,8 @@ TelaCadastro1 As screen:
         DisabledBorderColor: =RGBA(37, 161, 142, 1)
         Fill: =RGBA(37, 161, 142, 1)
         OnSelect: =Navigate(TelaCadastro2)
-        X: =295
-        Y: =925
+        X: =547
+        Y: =912
         ZIndex: =14
 
     FormLogin As form:
@@ -494,4 +494,13 @@ TelaCadastro1 As screen:
         X: =356
         Y: =454
         ZIndex: =44
+
+    Arrow2_2 As arrow.backArrow:
+        BorderColor: =RGBA(42, 157, 140, 1)
+        BorderThickness: =3
+        Fill: =RGBA(42, 157, 140, 1)
+        OnSelect: =Navigate(TelaLogin)
+        X: =50
+        Y: =912
+        ZIndex: =45
 

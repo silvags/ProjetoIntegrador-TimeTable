@@ -128,8 +128,17 @@ TelaLogin As screen:
         Text: ="Esqueci a senha | Suporte"
         Width: =377
         X: =125
-        Y: =874
+        Y: =847
         ZIndex: =23
+
+    Arrow2_3 As arrow.backArrow:
+        BorderColor: =RGBA(42, 157, 140, 1)
+        BorderThickness: =3
+        Fill: =RGBA(42, 157, 140, 1)
+        OnSelect: =Navigate(TelaAcesso)
+        X: =288
+        Y: =937
+        ZIndex: =30
 
     Footer_TelaLogin As group:
         Height: =5
