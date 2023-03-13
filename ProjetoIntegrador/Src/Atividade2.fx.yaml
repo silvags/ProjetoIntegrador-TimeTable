@@ -17,18 +17,13 @@ Atividade2 As screen:
         ZIndex: =19
 
     Label22_1 As label:
-        Height: =441
-        Size: =16
-        Text: |-
-            ="Tema do Projeto: Metodologia Ágil 
-            
-            
-            
-            
-            ."
+        Align: =Align.Justify
+        Height: =424
+        Size: =18
+        Text: =    "   Lorem ipsum dolor sit amet. Ea mollitia animi At reiciendis sint nam corporis similique quo similique explicabo sed voluptates dolorem est repellat dicta. Ad voluptates odit qui officia exercitationem aut impedit accusamus ut dolore deserunt est veritatis iure vel quas dignissimos."
         Width: =551
         X: =39
-        Y: =401
+        Y: =416
         ZIndex: =20
 
     Label23_1 As label:
@@ -36,10 +31,10 @@ Atividade2 As screen:
         FontWeight: =FontWeight.Semibold
         Height: =39
         Size: =17
-        Text: ="Profa. Bruna"
-        Width: =199
+        Text: ="Profa. Maria Antônia"
+        Width: =250
         X: =39
-        Y: =333
+        Y: =350
         ZIndex: =21
 
     Label24_1 As label:
