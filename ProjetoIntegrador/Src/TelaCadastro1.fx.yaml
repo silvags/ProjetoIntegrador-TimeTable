@@ -9,7 +9,7 @@ TelaCadastro1 As screen:
         BorderThickness: =3
         DisabledBorderColor: =RGBA(37, 161, 142, 1)
         Fill: =RGBA(37, 161, 142, 1)
-        OnSelect: =Navigate(TelaCadastro2);SubmitForm(FormLogin)
+        OnSelect: =Navigate(TelaCadastro2)
         X: =547
         Y: =912
         ZIndex: =14
