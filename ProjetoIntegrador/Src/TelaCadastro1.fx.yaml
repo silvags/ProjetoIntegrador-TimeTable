@@ -35,7 +35,7 @@ TelaCadastro1 As screen:
             Update: =entradaEmail.Text
             Width: =640
             X: =0
-            Y: =3
+            Y: =0
             ZIndex: =1
 
             DataCardKey2 As label:
@@ -56,6 +56,14 @@ TelaCadastro1 As screen:
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
                 MaxLength: =Parent.MaxLength
+                OnSelect: |-
+                    =If(
+                        IsBlank(ConfirmaEmail),
+                        Notify(
+                            "Favor preencher o campo solicitado!",
+                            NotificationType.Information
+                        )
+                    )
                 PaddingLeft: =5
                 RadiusBottomLeft: =0
                 RadiusBottomRight: =0
@@ -109,7 +117,7 @@ TelaCadastro1 As screen:
             Update: =ConfirmaEmail.Text
             Width: =640
             X: =0
-            Y: =0
+            Y: =1
             ZIndex: =1
 
             DataCardKey3 As label:
@@ -200,7 +208,7 @@ TelaCadastro1 As screen:
             Update: =DigitarSenha.Text
             Width: =640
             X: =0
-            Y: =1
+            Y: =2
             ZIndex: =1
 
             DataCardKey5 As label:
@@ -279,7 +287,7 @@ TelaCadastro1 As screen:
             Update: =ConfirmarSenha.Text
             Width: =640
             X: =0
-            Y: =2
+            Y: =3
             ZIndex: =1
 
             DataCardKey4 As label:
