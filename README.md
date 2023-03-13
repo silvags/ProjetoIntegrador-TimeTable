@@ -1,6 +1,10 @@
 <h1 align="center"> TIMETABLE </h1>
 
-![Powered by](https://img.shields.io/badge/Power%20Apps-742774.svg?style=for-the-badge&logo=Power-Apps&logoColor=white)
+<div align="center">
+
+  ![Powered by](https://img.shields.io/badge/Power%20Apps-742774.svg?style=for-the-badge&logo=Power-Apps&logoColor=white)
+  
+ </div>
 
 **_TIMETABLE_** é um aplicativo lowcode feito em _Power Apps_ e destina-se auxiliar professores e alunos em terefas como cadastro de disciplinas, consulta de notas, tarefas, frequencia, agenda avaliações e trabalhos academicos.
 
@@ -16,47 +20,60 @@ O aplicativo **_TIMETABLE_** foi desenvolvido a partir da proposta de desenvolvi
 - Mel Menezes Carvalho
 - Vanessa Gellert da Costa
 
-## Instalação
+## Instalação e acesso
 
 É possível acessar a aplicação pelos seguintes meios: 
 
 
-* Testando no celular, atraves do aplicativo _Power Apps_:
-  1. Baixar o _Power apps_ no celular ( disponível para android ou IOS).
-  ![Instalar o aplicativo do Power Apps](https://user-images.githubusercontent.com/59966478/224584701-da535ae6-9396-4587-a221-77fb0075dd7e.png)
-  
-  2. Entrar utilizando o seguinte login: 
-    - **Usuário**: senac_teste@bp84.onmicrosoft.com
-    - **Senha**: testeAppSenacG2
+1. Testando no celular, atraves do aplicativo _Power Apps_:
+    1. Baixar o _Power Apps_ no celular ( disponível para android ou IOS).
     
-  ![Login](https://user-images.githubusercontent.com/59966478/224584796-5c384e23-1b06-4bad-bb61-89df1ec0c8f1.png)
+      ![Instalar o aplicativo do Power Apps](https://user-images.githubusercontent.com/59966478/224584701-da535ae6-9396-4587-a221-77fb0075dd7e.png)
   
-  3. Conforme o dia em que se fizer o _login_ poderá ser solicitado fazer autenticação usando o _Microsoft authenticator_. Épossivel pular esta etapa clicando em "Perguntar mais tarde".
+    2. Entrar utilizando o seguinte login: 
+      - **Usuário**: senac_teste@bp84.onmicrosoft.com
+      - **Senha**: testeAppSenacG2
+    
+      ![Login](https://user-images.githubusercontent.com/59966478/224584796-5c384e23-1b06-4bad-bb61-89df1ec0c8f1.png)
   
-  ![Autenticação](https://user-images.githubusercontent.com/59966478/224584868-1ae11317-6c58-4c63-b0c2-5469c5812da6.png)
-  
-  4. Após logar, basta clicar no icone do app que estará disponível na pagina inicial.
+    3. Conforme o dia em que se fizer o _login_ poderá ser solicitado fazer autenticação usando o _Microsoft authenticator_. É possivel pular esta etapa clicando em "Perguntar mais tarde".
+    
+      ![Autenticação](https://user-images.githubusercontent.com/59966478/224584868-1ae11317-6c58-4c63-b0c2-5469c5812da6.png)
+    
+    4. Após logar, basta clicar no icone do app que estará disponível na pagina inicial.
 
-  ![Abriro TIMETABLE](https://user-images.githubusercontent.com/59966478/224585033-6a151fac-474f-4a84-87e4-b1768006c2cc.png)
+      ![Abriro TIMETABLE](https://user-images.githubusercontent.com/59966478/224585033-6a151fac-474f-4a84-87e4-b1768006c2cc.png)
   
-  5. A seguinte mensagem poderá aparecer, nesse caso basta clicar em start e seguir as instruções.
-  
-  ![Clicar em start](https://user-images.githubusercontent.com/59966478/224585093-92c3d2ef-cbe9-41cd-b981-0c8f9284fd9a.png)
+    5. A seguinte mensagem poderá aparecer, nesse caso basta clicar em start e seguir as instruções.
+      
+      ![Clicar em start](https://user-images.githubusercontent.com/59966478/224585093-92c3d2ef-cbe9-41cd-b981-0c8f9284fd9a.png)
 
-* Testando no navegador
-  1. Fazer login na conta do outlook com os dados passados anteriormente.
-  
-  ![testbrowser1](https://user-images.githubusercontent.com/59966478/224595690-882baf57-e8f0-4704-a1b8-882993fa6dd8.png)
-  
-  2. Abrir o email fixado no início.
-   
-  ![testbrowser2](https://user-images.githubusercontent.com/59966478/224595743-8eeb86a3-ffb9-4c04-b246-005fa7aa24fc.png)
-  
-  3. Clicar no botão _"run the app"_.
-  
-  ![testbrowser3](https://user-images.githubusercontent.com/59966478/224594987-8f5e0efd-17b8-4535-b6b2-99d40044ff19.png)
+2. Testando no navegador
+    1. Fazer login na conta do outlook com os dados passados anteriormente.
+    
+      ![testbrowser1](https://user-images.githubusercontent.com/59966478/224595690-882baf57-e8f0-4704-a1b8-882993fa6dd8.png)
+        
+    2. Abrir o email fixado no início.
+       
+      ![testbrowser2](https://user-images.githubusercontent.com/59966478/224595743-8eeb86a3-ffb9-4c04-b246-005fa7aa24fc.png)
+ 
+    3. Clicar no botão _"run the app"_.
+    
+      ![testbrowser3](https://user-images.githubusercontent.com/59966478/224594987-8f5e0efd-17b8-4535-b6b2-99d40044ff19.png)
 
+    4. É possível ainda acessar o aplicativo para teste diretamente pelo link [](https://web.powerapps.com/apps/434f80f3-9b2c-40aa-96b2-68ea892295b7)
+      
 
 ## Running Tests
 
-Para testar a aplicação é necessário seguir os seguintes passos...
+Para testar a aplicação é necessário seguir os seguintes passos:
+
+1. A tela inicial do ***TIMETABLE*** possibilita duas açoes dependendo de qual botão é selecionado:
+
+    ![telainicial](https://user-images.githubusercontent.com/59966478/224850740-3e7787f7-4c69-4ed3-98ff-dba4e619fcbe.png)
+    
+    1. Botão "CADASTRE_SE AGORA":
+        
+        ![telacadastro1](https://user-images.githubusercontent.com/59966478/224851182-eb6f0e9e-4f3d-47cf-b44b-50966544ec8d.png) ![telacadastro2](https://user-images.githubusercontent.com/59966478/224851185-05e411a8-cf26-4f40-91b1-9763c48f7318.png) ![telacadastro3](https://user-images.githubusercontent.com/59966478/224851187-d5f8b7e5-4f6e-4444-8e52-7edef79cbc39.png)
+
+        No primeiro acesso é preciso cadastrar um usuário
