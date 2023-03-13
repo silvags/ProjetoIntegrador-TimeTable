@@ -50,11 +50,12 @@ TelaCadastro1 As screen:
                 ZIndex: =1
 
             entradaEmail As text:
-                BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                BorderColor: =RGBA(0,165,205,1)
                 Default: =Parent.Default
                 DelayOutput: =true
                 DisplayMode: =Parent.DisplayMode
                 Height: =70
+                HintText: ="Digite seu e-mail"
                 MaxLength: =Parent.MaxLength
                 OnSelect: |-
                     =If(
@@ -64,16 +65,17 @@ TelaCadastro1 As screen:
                             NotificationType.Information
                         )
                     )
-                PaddingLeft: =5
-                RadiusBottomLeft: =0
-                RadiusBottomRight: =0
-                RadiusTopLeft: =0
-                RadiusTopRight: =0
+                PaddingLeft: =25
+                PaddingRight: =25
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
                 Size: =21
                 Tooltip: =Parent.DisplayName
                 Width: =Parent.Width - 60
                 X: =30
-                Y: =DataCardKey2.Y + DataCardKey2.Height + 5
+                Y: =14
                 ZIndex: =2
 
             ErrorMessage5 As label:

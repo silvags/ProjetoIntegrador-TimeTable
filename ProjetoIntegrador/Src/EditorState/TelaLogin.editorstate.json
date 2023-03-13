@@ -88,7 +88,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Arrow2_3",
-      "ParentIndex": 17,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1130,7 +1130,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Facebook",
-      "ParentIndex": 11,
+      "ParentIndex": 12,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1885,7 +1885,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Instagram",
-      "ParentIndex": 12,
+      "ParentIndex": 13,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2114,7 +2114,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Linkedin",
-      "ParentIndex": 13,
+      "ParentIndex": 14,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2439,7 +2439,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Rectangle3_2",
-      "ParentIndex": 10,
+      "ParentIndex": 11,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4033,7 +4033,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Todos os direitos reservados_2",
-      "ParentIndex": 16,
+      "ParentIndex": 17,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4307,7 +4307,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Twitter",
-      "ParentIndex": 15,
+      "ParentIndex": 16,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -4536,7 +4536,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Youtube",
-      "ParentIndex": 14,
+      "ParentIndex": 15,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
