@@ -142,6 +142,7 @@ TelaCadastro1_1 As screen:
 
     Form1 As form:
         DataSource: =Login
+        DefaultMode: =FormMode.New
         Height: =619
         Width: =640
         Y: =240
