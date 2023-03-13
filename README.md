@@ -24,7 +24,6 @@ O aplicativo **_TIMETABLE_** foi desenvolvido a partir da proposta de desenvolvi
 
 É possível acessar a aplicação pelos seguintes meios: 
 
-
 1. Testando no celular, atraves do aplicativo _Power Apps_:
     1. Baixar o _Power Apps_ no celular ( disponível para android ou IOS).
     
@@ -72,8 +71,8 @@ Para testar a aplicação é necessário seguir os seguintes passos:
 
     ![telainicial](https://user-images.githubusercontent.com/59966478/224850740-3e7787f7-4c69-4ed3-98ff-dba4e619fcbe.png)
     
-    1. Botão "CADASTRE_SE AGORA":
+    1. O botão "CADASTRE_SE AGORA" direciona para a primeira de três telas onde o usuário informa os dados solicitados. na última tela, ao clicar em cadastrar o usuário finaliza o cadastro estando apto a acessar a aplicação.
         
         ![telacadastro1](https://user-images.githubusercontent.com/59966478/224851182-eb6f0e9e-4f3d-47cf-b44b-50966544ec8d.png) ![telacadastro2](https://user-images.githubusercontent.com/59966478/224851185-05e411a8-cf26-4f40-91b1-9763c48f7318.png) ![telacadastro3](https://user-images.githubusercontent.com/59966478/224851187-d5f8b7e5-4f6e-4444-8e52-7edef79cbc39.png)
 
-        No primeiro acesso é preciso cadastrar um usuário
+        **OBS:** No primeiro acesso é preciso cadastrar um usuário.
