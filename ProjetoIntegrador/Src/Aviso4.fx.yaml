@@ -40,16 +40,6 @@ Aviso4 As screen:
         Y: =261
         ZIndex: =21
 
-    Label21_2 As label:
-        Color: =RGBA(51, 51, 51, 1)
-        Height: =420
-        Size: =18
-        Text: ="Prezados Alunos"
-        Width: =572
-        X: =39
-        Y: =378
-        ZIndex: =22
-
     Footer_Avisos_3 As group:
         Height: =5
         Width: =5
@@ -189,4 +179,19 @@ Aviso4 As screen:
             X: =39
             Y: =31
             ZIndex: =39
+
+    Label22_4 As label:
+        Align: =Align.Justify
+        Height: =424
+        Size: =18
+        Text: |-
+            ="   Lorem ipsum dolor sit amet. Ea mollitia animi At reiciendis sint nam corporis similique quo similique explicabo sed voluptates dolorem est repellat dicta. Ad voluptates odit qui officia exercitationem aut impedit accusamus ut dolore deserunt est veritatis iure vel quas dignissimos.
+                
+                
+            Atenciosamente,
+            Coordenação."
+        Width: =551
+        X: =46
+        Y: =415
+        ZIndex: =41
 
