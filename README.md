@@ -35,7 +35,7 @@ O aplicativo **_TIMETABLE_** foi desenvolvido a partir da proposta de desenvolvi
     
       ![Login](https://user-images.githubusercontent.com/59966478/224584796-5c384e23-1b06-4bad-bb61-89df1ec0c8f1.png)
   
-    3. Conforme o dia em que se fizer o _login_ poderá ser solicitado fazer autenticação usando o _Microsoft authenticator_. É possivel pular esta etapa clicando em "Perguntar mais tarde".
+    3. Conforme o dia em que se fizer o _login_ poderá ser solicitado fazer autenticação usando o _Microsoft Authenticator_. É possivel pular esta etapa clicando em "Perguntar mais tarde".
     
       ![Autenticação](https://user-images.githubusercontent.com/59966478/224584868-1ae11317-6c58-4c63-b0c2-5469c5812da6.png)
     
@@ -63,7 +63,7 @@ O aplicativo **_TIMETABLE_** foi desenvolvido a partir da proposta de desenvolvi
     4. É possível ainda acessar o aplicativo para teste diretamente pelo link [https://web.powerapps.com/apps/434f80f3-9b2c-40aa-96b2-68ea892295b7](https://web.powerapps.com/apps/434f80f3-9b2c-40aa-96b2-68ea892295b7)
       
 
-## Running Tests
+## Executando Testes
 
 Para testar a aplicação é necessário seguir os seguintes passos:
 
