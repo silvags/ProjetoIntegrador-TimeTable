@@ -71,8 +71,26 @@ Para testar a aplicação é necessário seguir os seguintes passos:
 
     ![telainicial](https://user-images.githubusercontent.com/59966478/224850740-3e7787f7-4c69-4ed3-98ff-dba4e619fcbe.png)
     
-    1. O botão "CADASTRE_SE AGORA" direciona para a primeira de três telas onde o usuário informa os dados solicitados. na última tela, ao clicar em cadastrar o usuário finaliza o cadastro estando apto a acessar a aplicação.
+  1. O botão _"CADASTRE_SE AGORA"_ direciona para a primeira de três telas onde o usuário informa os dados solicitados. na última tela, ao clicar em cadastrar o usuário finaliza o cadastro estando apto a acessar a aplicação.
         
         ![telacadastro1](https://user-images.githubusercontent.com/59966478/224851182-eb6f0e9e-4f3d-47cf-b44b-50966544ec8d.png) ![telacadastro2](https://user-images.githubusercontent.com/59966478/224851185-05e411a8-cf26-4f40-91b1-9763c48f7318.png) ![telacadastro3](https://user-images.githubusercontent.com/59966478/224851187-d5f8b7e5-4f6e-4444-8e52-7edef79cbc39.png)
 
         **OBS:** No primeiro acesso é preciso cadastrar um usuário.
+        
+  2. o botão _"ACESSAR"_ leva à página de login onde é solicitado a fornecer o email e a senha cadastrados. Ao inserir email ou senhaerrados o não cadastrados será mostrada uma mensagem de erro.
+   
+        ![telalogin](https://user-images.githubusercontent.com/59966478/224853347-d8f72bb1-2901-436e-812a-c664f223630a.png) ![telaerroaologar](https://user-images.githubusercontent.com/59966478/224853369-4c21a817-8609-47fc-998b-bb4d892967ae.png)
+   
+  3. Realizado o login o usuário será levado á uma tela de boas vindas onde deverá escolher um curso e clicar em acessar.
+   
+        ![telaboasvindas](https://user-images.githubusercontent.com/59966478/224854762-6ddbd6ca-9363-4862-8aef-41f4cb605774.png)
+        
+  4. Selecionado o curso abre-se o menu, onde estão abilitadas para teste as seguintes funções: ***Notas e Frequencias***, ***Atividades***, ***Calendário*** e ***Mural de avisos***, també é possível voltar para a tela ou sair do aplicativo.
+
+      ![telamenu](https://user-images.githubusercontent.com/59966478/224856644-c8cf3b44-337f-4fca-9bba-d6f92cac5e23.png)
+      
+      1. Ao clicar em ***Notas e Frequências*** será direcionado à tela onde estão relacionadas as notas e faltas das disciplinas. Para voltar ao menú principal basta clicar no icone do menú.
+      
+          ![telanotasefrequencias](https://user-images.githubusercontent.com/59966478/224857709-6e2bcd9f-71a4-4a8c-bf38-2f6e9ad1b9f3.png) ![telanotasefrequencias2](https://user-images.githubusercontent.com/59966478/224857740-20f56fe0-45e5-464f-abc7-41620c641afd.png)
+   
+      2. 
