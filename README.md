@@ -60,7 +60,7 @@ O aplicativo **_TIMETABLE_** foi desenvolvido a partir da proposta de desenvolvi
     
       ![testbrowser3](https://user-images.githubusercontent.com/59966478/224594987-8f5e0efd-17b8-4535-b6b2-99d40044ff19.png)
 
-    4. É possível ainda acessar o aplicativo para teste diretamente pelo link [](https://web.powerapps.com/apps/434f80f3-9b2c-40aa-96b2-68ea892295b7)
+    4. É possível ainda acessar o aplicativo para teste diretamente pelo link [https://web.powerapps.com/apps/434f80f3-9b2c-40aa-96b2-68ea892295b7](https://web.powerapps.com/apps/434f80f3-9b2c-40aa-96b2-68ea892295b7)
       
 
 ## Running Tests
